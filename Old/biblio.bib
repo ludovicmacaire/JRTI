@@ -1,0 +1,1454 @@
+﻿@article{kiku_ip_2016,
+  author =       {Daisuke Kiku and Yusuke Monno and Masayuki Tanaka and Masatoshi Okutomi},
+  title =        {Beyond Color Difference: Residual Interpolation for Color Image Demosaicking},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2016},
+  volume =       {25},
+  number =       {3},
+  pages =        {1288-1300},
+  month =        mar,
+  url =          {http://dx.doi.org/10.1109/TIP.2016.2518082,http://www.ok.ctrl.titech.ac.jp/res/DM/TIP_RI.zip},
+  keywords =     {Color;Frequency-domain analysis;Image color analysis;Indexes;Interpolation;Laplace equations;Standards;Bayer color filter array;demosaicking;guided upsampling;residual interpolation},
+  confidential = {n},
+  language =     {en},
+  abstract =     {In this paper, we propose residual interpolation (RI) as an alternative to color difference interpolation, which is a widely accepted technique for color image demosaicking. Our proposed RI performs the interpolation in a ï¿½residualï¿½ domain, where the residuals are differences between observed and tentatively estimated pixel values. Our hypothesis for the RI is that if image interpolation is performed in a domain with a smaller Laplacian energy, its accuracy is improved. Based on the hypothesis, we estimate the tentative pixel values to minimize the Laplacian energy of the residuals. We incorporate the RI into the gradient based threshold free (GBTF) algorithm, which is one of the state-of-the-art Bayer demosaicking algorithms. Experimental results demonstrate that our proposed demosaicking algorithm using the RI surpasses the state-of-the-art algorithms for the Kodak, the IMAX, and the beyond Kodak datasets.},
+  issn =         {1057-7149}
+}
+
+@inproceedings{akiyama_icip_2015,
+  author =       {Hiroki Akiyama and Masayuki Tanaka and Masatoshi Okutomi},
+  title =        {Pseudo four-channel image denoising for noisy {CFA} raw data},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing (ICIP'15)},
+  year =         {2015},
+  day =          {27-30},
+  month =        sep,
+  address =      {Qu\'ebec City, Canada},
+  pages =        {4778-4782},
+  url =          {http://dx.doi.org/10.1109/ICIP.2015.7351714,http://www.ok.ctrl.titech.ac.jp/res/CFADN/CFADN.html},
+  keywords =     {Algorithm design and analysis;Color;Colored noise;Image color analysis;Image denoising;Noise measurement;Noise reduction;Bayer-CFA;Demosaicking;Denoising;PCA},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Most demosaicking algorithms only focus on handling noise-free CFA raw data. In practice, the CFA raw data are corrupted by noise, which degrades demosaicking performance. Full-color image quality strongly depends on the performance of the demosaicking. Here, we propose a CFA raw data denoising algorithm. In the proposed algorithm, the CFA raw data is converted to a pseudo four-channel image by rearranging pixels. Then, the four-channel data are transformed based on the principal component analysis (PCA). Existing high-performance gray image denoising algorithm is applied to each transformed image. Finally, the denoised data is rearranged to obtain denoised CFA raw data. We evaluate both the denoised CFA raw data as well as the full-color image reconstructed with the noisy CFA raw data. Experimental comparisons demonstrate that the proposed algorithm outperforms existing state-of-the-art algorithms.}
+}
+
+@article{duran_ipol_2015,
+  author =       {Joan Duran and Antoni Buades},
+  title =        {A Demosaicking Algorithm with Adaptive Inter-channel Correlation},
+  journal =      {Image Processing On Line},
+  year =         {2015},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Most common cameras use a CCD sensor device measuring a single color per pixel. De- mosaicking is the interpolation process by which one can infer a full color image from such a matrix of values, thus interpolating the two missing components per pixel. Most demosaicking methods take advantage of inter-channel correlation locally selecting the best interpolation di- rection. The obtained results look convincing except when local geometry cannot be inferred from neighboring pixels or channel correlation is low. In these cases, these algorithms create interpolation artifacts such as zipper effect or color aliasing. This paper discusses the implemen- tation details of the algorithm proposed in [J. Duran, A. Buades, â€œSelf-Similarity and Spectral Correlation Adaptive Algorithm for Color Demosaickingâ€, IEEE Trans. Image Process., 23(9), pp. 4031â€“4040, 2014]. The proposed method involves nonlocal image self-similarity in order to reduce interpolation artifacts when local geometry is ambiguous. It further introduces a clear and intuitive manner of balancing how much channel-correlation must be taken advantage of.}
+}
+
+@article{pawar_ijarcseit_2015,
+  author =       {Chaitrali V. Pawar and Vinay S. Nalawade},
+  title =        {Implementation of A New Colour Filter Array with Improved Quality for Noiseless and Noisy Colour Image},
+  journal =      {International Journal of Advanced Research in Computer Science Engineering and Information Technology},
+  year =         {2015},
+  volume =       {4},
+  number =       {3},
+  month =        apr,
+  url =          {http://www.isrjournals.org/journal_archives_abstract/Implementation%20of%20A%20New%20Colour%20Filter%20Array%20with%20Improved%20Quality%20for%20Noiseless%20and%20Noisy%20Colour%20Image,http://fr.slideshare.net/iaeme/ijecet-06-09006},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {The Colour Filter Array is overlaid on the digital camera. Digital camera takes the images by using this colour filter array. The growing popularity of digital camera demands the improvement in the quality of the images, speed of acquiring the images.Digital camera should have High sensitivity properties such as to reduce the exposure time, to increase the aperture, or to use a lower ISO setting and a less destructive de-noising process while acquiring a picture. In this paper we present the CFA with new optimal properties which provide trade-off between robustness to aliasing, chrominance noise and luminance noise. The proposed CFA has a natural and simple demosaicking algorithm associated to it, inspired by its characteristics in the Fourier domain. The demosaicking algorithm used is simple and efficient which fully exploits the spectral properties of the CFA. The proposed CFA work superiorly for acquisition of noiseless and noisy images and has six colours and a periodic pattern of size 2*3. A sensor with the proposed CFA will provide images with higher perceived resolution because the anti-alias filter can be removed from the sensor and better quality than the standard Bayer CFA. It is less sensitive to Inter-chrominance aliasing \& chrominance axis. The proposed CFA developed will provide less amplified chrominance noise than Hirakawa CFA. The proposed CFA is developed which will provide robustness in aliasing and luminance \& chrominance noise.}
+}
+
+@article{chen_csvt_2015,
+  author =       {Xiangdong Chen and Liwen He and Gwanggil Jeon and Jechang Jeong},
+  title =        {Multidirectional Weighted Interpolation and Refinement Method for {B}ayer Pattern {CFA} Demosaicking},
+  journal =      {IEEE Transactions on Circuits and Systems for Video Technology},
+  year =         {2015},
+  volume =       {25},
+  number =       {8},
+  pages =        {1271-1282},
+  month =        aug,
+  url =          {http://dx.doi.org/10.1109/TCSVT.2014.2313896},
+  keywords =     {computational complexity;image colour analysis;image filtering;image segmentation;interpolation;Bayer pattern CFA demosaicking;color filter array interpolation;computational complexity;image quality;interpolation artifact reduction;multidirectional weight},
+  confidential = {n},
+  language =     {en},
+  abstract =     {This paper presents a novel multidirectional weighted interpolation algorithm for color filter array interpolation. Our proposed method has two contributions to demosaicking. First, different from conventional interpolation methods based on two directions or four directions, the proposed method exploits to greater degree correlations among neighboring pixels along eight directions to improve the interpolation performance. Second, we propose an efficient postprocessing method to reduce interpolation artifacts based on the color difference planes. Compared with conventional state-of-the-art demosaicking algorithms, our experimental results show the proposed algorithm provides superior performance in both objective and subjective image quality. Furthermore, this implementation has moderate computational complexity.},
+  issn =         {1051-8215}
+}
+
+@article{sung_sj_2015,
+  author =       {Da-Cheng Sung and Hen-Wai Tsao},
+  title =        {Color Filter Array Demosaicking by Using Subband Synthesis Scheme},
+  journal =      {IEEE Sensors Journal},
+  year =         {2015},
+  volume =       {15},
+  number =       {11},
+  pages =        {6164-6172},
+  month =        nov,
+  url =          {http://dx.doi.org/10.1109/JSEN.2015.2449902},
+  keywords =     {filtering theory;image colour analysis;image resolution;image segmentation;image sensors;interpolation;CFA interpolation method;color channels;color filter array;color filter array demosaicking;digital cameras;green channel estimation;image restoration;im},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Digital still cameras use image sensors to capture images. To reduce the size of digital still cameras, a single image sensor instead of three image sensors should be used. A single image sensor overlaid with a color filter array (CFA) that filters color channels only captures one color channel at each pixel; thus, the other missing color channels at each pixel must be reproduced from neighboring pixels. This procedure is known as CFA interpolation or demosaicking. In this paper, a novel CFA interpolation method is proposed to reduce false color artifacts and improve the quality of restored images. First, an edge detection method is used to interpolate the initial missing color channels. Second, the high correlations between wavelet subbands of the different color channels are explored to obtain accurate color values of the estimated green channel. Finally, the high-frequency subbands of red and blue channels are iteratively updated to reduce false color artifacts. Experimental results show that our proposed method preserves edges and restores images with high quality.},
+  issn =         {1530-437X}
+}
+
+@article{bai_ip_2015,
+  author =       {Chenyan Bai and Jia Li and Zhouchen Lin and Jian Yu and Yen-Wei Chen},
+  title =        {Penrose Demosaicking},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2015},
+  volume =       {24},
+  number =       {5},
+  pages =        {1672-1684},
+  month =        may,
+  url =          {http://dx.doi.org/10.1109/TIP.2015.2409569},
+  keywords =     {image colour analysis;image reconstruction;image segmentation;Penrose demosaicking;Penrose pixel layout;S-CIELAB;grayscale images;perceptual evaluation;regular color image reconstruction;rhombus Penrose tiling;Color;Educational institutions;Image color an},
+  confidential = {n},
+  language =     {en},
+  abstract =     {The Penrose pixel layout, an aperiodic pixel layout in rhombus Penrose tiling, has been shown to substantially outperform the existing square pixel layout in super-resolution. However, it was tested only on grayscale images. To study its performance on color images, we have to reconstruct regular color images from Penrose raw images, i.e., images with only one color component at each Penrose pixel, resulting in the problem of demosaicking from Penrose pixels. Penrose demosaicking is more difficult than regular demosaicking, because none of the color components of the reconstructed regular color images are available. Therefore, most of the traditional demosaicking methods do not apply. We develop a sparse representation-based method for Penrose demosaicking. Extensive experiments show that Penrose pixel layout outperforms regular pixel layouts in terms of both perceptual evaluation and S-CIELAB. The Penrose pixel layout is unique among all irregular layouts because it is uniformly three-colorable and it has only two pixel shapes, thick and thin rhombi, making its manufacturing relatively easy.},
+  issn =         {1057-7149}
+}
+
+@article{kim_csvt_2015,
+  author =       {Yonghoon Kim and Jechang Jeong},
+  title =        {Four Direction Residual Interpolation for Demosaicking},
+  journal =      {IEEE Transactions on Circuits and Systems for Video Technology},
+  year =         {2015},
+  month =        may,
+  url =          {http://dx.doi.org/10.1109/TCSVT.2015.2428552},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {In this paper, we propose a four direction residual interpolation method for color filter array interpolation. The proposed algorithm exploits a guided filtering process to generate the tentative image. The residual image is generated by exploiting the tentative and original images. We use a four direction residual interpolation algorithm to more accurately estimate the missing pixel values; the estimated image is adaptively combined with a joint inverse gradient weight. Based on experimental results, the proposed method provides superior performance in terms of objective and subjective quality compared to conventional state-of-the-art demosaicking methods.}
+}
+
+@article{wang_ipol_2015,
+  author =       {Yi-Qing Wang and Nicolas Limare},
+  title =        {A Fast C++ Implementation of Neural Network Backpropagation Training Algorithm: Application to Bayesian Optimal Image Demosaicing},
+  journal =      {Image Processing On Line},
+  year =         {2015},
+  volume =       {5},
+  pages =        {257-266},
+  month =        sep,
+  url =          {http://dx.doi.org/10.5201},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Recent years have seen a surge of interest in multilayer neural networks fueled by their successful applications in numerous image processing and computer vision tasks. In this article, we describe a C++ implementation of the stochastic gradient descent to train a multilayer neural network, where a fast and accurate acceleration of tanh(Â·) is achieved with linear interpolation. As an example of application, we present a neural network able to deliver state-of-the-art performance in image demosaicing.}
+}
+
+@inproceedings{wu_icip_2015,
+  author =       {Jiqing Wu and Radu Timofte and and Luc Van Gool Jiqing Wu and Radu Timofte and and Luc Van Gool},
+  title =        {Efficient Regression Priors for Post-processing Demosaiced Images},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing (ICIP'15)},
+  year =         {2015},
+  day =          {27-30},
+  month =        sep,
+  address =      {Québec City, Canada},
+  url =          {http://www.vision.ee.ethz.ch/$\sim$timofter/},
+  keywords =     {},
+  file =         {2015/wu_icip_2015.pdf},
+  confidential = {n},
+  language =     {en}
+}
+
+@inproceedings{monno_icip_2015,
+  author =       {Yusuke Monno and Daisuke Kiku and Masayuki Tanaka and and Masatoshi Okutomi},
+  title =        {Adaptive Residual Interpolation for Color Image Demosaicking},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing (ICIP'15)},
+  year =         {2015},
+  day =          {27-30},
+  month =        sep,
+  address =      {Québec City, Canada},
+  url =          {http://www.ok.ctrl.titech.ac.jp/res/DM/RI.html},
+  keywords =     {},
+  file =         {2015/monno_icip_2015.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Color image demosaicking is an essential image processing
+operation for acquiring high-quality color images. Recently,
+demosaicking algorithms using residual interpolation (RI),
+which performs the interpolation in a residual domain, have
+been proposed. An iterative framework has also been introduced
+into the RI and shown state-of-the-art performance. In
+this paper, we propose a novel demosaicking algorithm using
+adaptive residual interpolation (ARI), which adaptively selects
+a suitable iteration number and combines two different
+types of RI algorithms at each pixel. Experimental results
+demonstrate that our demosaicking algorithm can achieve a
+clear improvement in comparison with existing algorithms.}
+}
+
+@article{zhou_jei_2014,
+  author =       {Dengwen Zhou and Weiming Dong and Wengang Chen},
+  title =        {Joint demosaicking and zooming using moderate spectral correlation and consistent edge map},
+  journal =      {Journal of Electronic Imaging},
+  year =         {2014},
+  volume =       {23},
+  number =       {4},
+  pages =        {043010},
+  url =          {http://dx.doi.org/10.1117/1.JEI.23.4.043010},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Abstract. The recently published joint demosaicking and zooming algorithms for single-sensor digital cameras all overfit the popular Kodak test images, which have been found to have higher spectral correlation than typical color images. Their performance perhaps significantly degrades on other datasets, such as the McMaster test images, which have weak spectral correlation. A new joint demosaicking and zooming algorithm is proposed for the Bayer color filter array (CFA) pattern, in which the edge direction information (edge map) extracted from the raw CFA data is consistently used in demosaicking and zooming. It also moderately utilizes the spectral correlation between color planes. The experimental results confirm that the proposed algorithm produces an excellent performance on both the Kodak and McMaster datasets in terms of both subjective and objective measures. Our algorithm also has high computational efficiency. It provides a better tradeoff among adaptability, performance, and computational cost compared to the existing algorithms.}
+}
+
+@article{huang_dsp_2014,
+  author =       {Wen-Tsung Huang and Wen-Jan Chen and Shen-Chuan Tai},
+  title =        {A sharp edge-preserving joint color demosaicking and zooming algorithm using integrated gradients and an iterative back-projection technique},
+  journal =      {Digital Signal Processing},
+  year =         {2014},
+  volume =       {27},
+  pages =        {79-94},
+  url =          {http://dx.doi.org/10.1016/j.dsp.2013.12.007},
+  keywords =     {Iterative back-projection},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Abstract Following the advances in single-sensor imaging techniques, interest in producing a zoomed full-color image from a Bayer mosaic data has been increased. Almost all of the recent approaches identified, with respect to the demosaicking step in the imaging pipeline, have chiefly focused on misguidance problems. However, in regions consisting of sharp edges or fine textures, these approaches are prone to large blurring effects. This paper proposes a new joint solution to overcome the above problems associated with demosaicking and zooming operations. On the basis of an enhanced soft-decision framework, we estimate the edge features by computing the integrated gradients. This allows the extraction of gradient information from both color intensity and color difference domains, simultaneously. Then, the edge guidance is incorporated in the interpolation of various stages to preserve edge consistency and improve computational efficiency. In addition, an edge-adaptive, iterative, back-projection technique is developed to compensate for image blurring as well as to further suppress color artifacts. Experimental results indicate that the new algorithm produces outstanding objective performances and sharp, visually pleasing color outputs, when compared to numerous other single-sensor image zooming solutions.},
+  issn =         {1051-2004}
+}
+
+@inproceedings{michael_icip_2014,
+  author =       {Gilad Michael and Nahum Kiryati},
+  title =        {Example based demosaicing},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing (ICIP 2014)},
+  year =         {2014},
+  day =          {27-30},
+  month =        oct,
+  address =      {Paris, France},
+  pages =        {1832-1836},
+  url =          {http://dx.doi.org/10.1109/ICIP.2014.7025367},
+  keywords =     {frequency-domain analysis;image colour analysis;image reconstruction;image segmentation;optical filters;CFA;EBD;color filter array;color image reconstruction;example based demosaicing algorithm;frequency-domain approach;high-saturation edge;spatial-domain},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Demosaicing is an algorithm used to reconstruct a color image from the incomplete color samples of a color filter array (CFA). Most demosaicing algorithms can be broadly classified into spatial-domain and frequency-domain approaches. Despite significant progress in the past decade, current state of the art demosaicing algorithms still tend to produce artifacts at high-saturation edges. In this paper we propose a new approach to demosaicing - example based. Comparative experimental evaluation shows that example-based demosaicing (EBD) produces visually superior, artifact-free results.}
+}
+
+@inproceedings{kiku_spie_2014,
+  author =       {Daisuke Kiku and Yusuke Monno and Masayuki Tanaka and Masatoshi Okutomi},
+  title =        {Minimized-{L}aplacian residual interpolation for color image demosaicking},
+  booktitle =    {Proceedings of the SPIE Electronic Imaging Annual Symposium (SPIE'14): Digital Photography X},
+  year =         {2014},
+  day =          {2},
+  month =        feb,
+  editor =       {Nitin Sampat and Radka Tezaur and Sebastiano Battiato and Boyd A. Fowler},
+  address =      {San Francisco, California, USA},
+  volume =       {9023},
+  url =          {http://dx.doi.org/10.1117/12.2038425,http://www.ok.ctrl.titech.ac.jp/res/DM/RI.html},
+  keywords =     {},
+  file =         {2014/kiku_spie_2014a.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {A color difference interpolation technique is widely used for color image demosaicking. In this paper, we propose a minimized-laplacian residual interpolation (MLRI) as an alternative to the color difference interpolation, where the residuals are differences between observed and tentatively estimated pixel values. In the MLRI, we estimate the tentative pixel values by minimizing the Laplacian energies of the residuals. This residual image transformation allows us to interpolate more easily than the standard color difference transformation. We incorporate the proposed MLRI into the gradient based threshold free (GBTF) algorithm, which is one of current state-of- the-art demosaicking algorithms. Experimental results demonstrate that our proposed demosaicking algorithm can outperform the state-of-the-art algorithms for the 30 images of the IMAX and the Kodak datasets. }
+}
+
+@inproceedings{rafinazari_icip_2014,
+  author =       {Mina Rafinazari and \'Eric Dubois},
+  title =        {Demosaicking algorithm for the Fujifilm X-Trans color filter array},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing (ICIP 2014)},
+  year =         {2014},
+  day =          {27-30},
+  month =        oct,
+  address =      {Paris, France},
+  volume =       {660-663},
+  url =          {http://dx.doi.org/10.1109/ICIP.2014.7025132},
+  keywords =     {},
+  confidential = {n},
+  abstract =     {Digital cameras reconstruct a full color image using the information captured by different color sensors (RGB) through a Color Filter Array (CFA). A demosaicking algorithm uses the information of the CFA data to restore a full color array. Demosaicking algorithms reconstruct two unknown color components for a pixel at each spatial location. During this stage, the values of other components will be measured mostly by neighboring pixels' information. Since the Fujifilm X-Trans pattern is one of the more successful CFAs, we attempt to model the demosaicking steps using this pattern and simulate both non-adaptive and adaptive demosaicking schemes. Kodak sample images are used in order to validate and compare different approaches with related previous work.}
+}
+
+@inproceedings{rossi_icip_2014,
+  author =       {Mattia Rossi and Giancarlo Calvagno},
+  title =        {Luminance driven sparse representation based demosaicking},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing (ICIP 2014)},
+  year =         {2014},
+  day =          {27-30},
+  month =        oct,
+  address =      {Paris, France},
+  pages =        {1788-1792},
+  url =          {http://dx.doi.org/10.1109/ICIP.2014.7025358},
+  keywords =     {},
+  file =         {2014/rossi_icip_2014.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Typical consumer cameras sense at each pixel only one out of the
+three color components the representation of a color image requires.
+Then the missing components are estimated via a procedure referred
+to as demosaicking. The recent spread of sparse regularization approaches
+for signal reconstruction purposes has extended to demosaicking
+algorithms too. In this paper, starting from a sparse representation
+based demosaicking algorithm recently appeared in the
+literature, a new one is devised. The proposed algorithm effectively
+estimates the original luminance component from the acquired data
+and then uses it to guide the sparsity based reconstruction of the fullresolution
+image. This hybrid approach to demosaicking allows the
+new algorithm to outperform the past one and to compete with leading
+demosaicking algorithms, both in terms of PSNR measure and
+visual quality.}
+}
+
+@inproceedings{jaiswal_icip_2014,
+  author =       {Sunil Prasad Jaiswal and Oscar C. Au and Vinit Jakhetiya and Yuan Yuan and Haiyan Yang},
+  title =        {Exploitation of inter-color correlation for color image demosaicking},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing (ICIP 2014)},
+  year =         {2014},
+  day =          {27-30},
+  month =        oct,
+  address =      {Paris, France},
+  pages =        {1812-1816},
+  url =          {http://dx.doi.org/10.1109/ICIP.2014.7025363,http://ihome.ust.hk/$\sim$spjaiswal/color_demosaicing.html},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Image demosaicking or color filter array interpolation is a process of interpolating missing color samples to reconstruct a full color image. In general, existing algorithms assume that the high frequency components such as edges, texture etc. of different color channels are similar and thus take an advantage of it to estimate the missing samples. In this paper, we efficiently analyze the relationships of intra and inter-color correlation among the channels and observe that such assumption fails in most cases. In view of this observation, we propose a scheme that exploits the correlation between different color channels much effectively than the existing algorithms. Experimental results demonstrate that the proposed algorithm outperforms the existing methods both in terms of Peak Signal to Noise Ratio (PSNR) and visual perception.}
+}
+
+@article{duran_ip_2014,
+  author =       {Joan Duran and Antoni Buades},
+  title =        {Self-Similarity and Spectral Correlation Adaptive Algorithm for Color Demosaicking},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2014},
+  volume =       {23},
+  number =       {9},
+  pages =        {4031-4040},
+  month =        sep,
+  url =          {http://dx.doi.org/10.1109/TIP.2014.2341928},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Most common cameras use a CCD sensor device measuring a single color per pixel. The other two color values of each pixel must be interpolated from the neighboring pixels in the so-called demosaicking process. State-of-the-art demosaicking algorithms take advantage of inter-channel correlation locally selecting the best interpolation direction. These methods give impressive results except when local geometry cannot be inferred from neighboring pixels or channel correlation is low. In these cases, they create interpolation artifacts. We introduce a new algorithm involving non-local image self-similarity in order to reduce interpolation artifacts when local geometry is ambiguous. The proposed algorithm introduces a clear and intuitive manner of balancing how much channel-correlation must be taken advantage of. Comparison shows that the proposed algorithm gives state-of-the-art methods in several image bases.}
+}
+
+@article{ehrhardt_ip_2014,
+  author =       {Matthias Joachim Ehrhardt and Simon R. Arridge},
+  title =        {Vector-valued image processing by parallel level sets},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2014},
+  volume =       {23},
+  number =       {1},
+  pages =        {9-18},
+  url =          {http://dx.doi.org/10.1109/TIP.2013.2277775, http://www0.cs.ucl.ac.uk/staff/ehrhardt/software.html},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Vector-valued images such as RGB color images or multimodal medical images show a strong interchannel correlation, which is not exploited by most image processing tools. We propose a new notion of treating vector-valued images which is based on the angle between the spatial gradients of their channels. Through minimizing a cost functional that penalizes large angles, images with parallel level sets can be obtained. After formally introducing this idea and the corresponding cost functionals, we discuss their GaÌ‚teaux derivatives that lead to a diffusion-like gradient descent scheme. We illustrate the properties of this cost functional by several examples in denoising and demosaicking of RGB color images. They show that parallel level sets are a suitable concept for color image enhancement. Demosaicking with parallel level sets gives visually perfect results for low noise levels. Furthermore, the proposed functional yields sharper images than the other approaches in comparison. },
+  issn =         {1057-7149}
+}
+
+@article{dworak_s_2013,
+  author =       {Volker Dworak and Joern Selbeck and Karl-Heinz Dammer and Matthias Hoffmann and Ali Akbar Zarezadeh and Christophe Bobda},
+  title =        {Strategy for the Development of a Smart {NDVI} Camera System for Outdoor Plant Detection and Agricultural Embedded Systems},
+  journal =      {Sensors},
+  year =         {2013},
+  volume =       {13},
+  number =       {2},
+  pages =        {1523},
+  url =          {http://dx.doi.org/10.3390/s130201523},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {The application of (smart) cameras for process control, mapping, and advanced imaging in agriculture has become an element of precision farming that facilitates the conservation of fertilizer, pesticides, and machine time. This technique additionally reduces the amount of energy required in terms of fuel. Although research activities have increased in this field, high camera prices reflect low adaptation to applications in all fields of agriculture. Smart, low-cost cameras adapted for agricultural applications can overcome this drawback. The normalized difference vegetation index (NDVI) for each image pixel is an applicable algorithm to discriminate plant information from the soil background enabled by a large difference in the reflectance between the near infrared (NIR) and the red channel optical frequency band. Two aligned charge coupled device (CCD) chips for the red and NIR channel are typically used, but they are expensive because of the precise optical alignment required. Therefore, much attention has been given to the development of alternative camera designs. In this study, the advantage of a smart one-chip camera design with NDVI image performance is demonstrated in terms of low cost and simplified design. The required assembly and pixel modifications are described, and new algorithms for establishing an enhanced NDVI image quality for data processing are discussed.},
+  issn =         {1424-8220}
+}
+
+@inproceedings{bosco_visapp_2013,
+  author =       {Angelo Bosco and Davide Giacalone and Arcangelo Bruna and Sebastiano Battiato and Rosetta Rizzo},
+  title =        {Signal Activity Estimation with Built-in Noise Management in Raw Digital Images},
+  booktitle =    {Proceedings of the 8th International Conference on Computer Vision Theory and Applications (VISAPP 2013)},
+  year =         {2013},
+  day =          {21-24},
+  month =        feb,
+  editor =       {Sebastiano Battiato and Jos\'e Braz},
+  address =      {Barcelona, Spain},
+  publisher =    {SciTePress},
+  isbn =         {978-989-8565-47-1},
+  pages =        {118-121},
+  url =          {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.300.935\&rep=rep1\&type=pdf},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Discriminating smooth image regions from areas in which significant signal activity occurs is a widely studied subject and is important in low level image processing as well as computer vision applications. In this paper we present a novel method for estimating signal activity in an image directly in the CFA (Color Filter Array) Bayer raw domain. The solution is robust against noise in that it utilizes low level noise characterization of the image sensor to automatically compensate for high noise levels that contaminate the image signal.}
+}
+
+@inproceedings{varian_gretsi_2013,
+  author =       {Ioana Varian and Patrick Lambert and Salim Bettahar},
+  title =        {Un indicateur de fausses couleurs pour \'evaluer le traitement des images couleurs},
+  booktitle =    {Actes du XXIVeme Colloque sur le Traitement du Signal et des Images ({GRETSI}'13)},
+  year =         {2013},
+  day =          {3-6},
+  month =        sep,
+  address =      {Brest, France},
+  url =          {https://hal.archives-ouvertes.fr/hal-00875045/},
+  keywords =     {},
+  confidential = {n},
+  language =     {fr}
+}
+
+@article{pekkucuksen_ip_2013,
+  author =       {Ibrahim Pekkucuksen and Yucel Altunbasak},
+  title =        {Multiscale Gradients-Based Color Filter Array Interpolation.},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2013},
+  volume =       {22},
+  number =       {1},
+  month =        jan,
+  url =          {http://dx.doi.org/10.1109/TIP.2012.2210726,https://sites.google.com/site/ibrahimepekkucuksen/publications},
+  keywords =     {},
+  confidential = {n},
+  comments =     {(Olivier:)
+Pour combiner les estimations directionnelles (H et V) des diffï¿½rences de composantes, il est intï¿½ressant de se baser sur les "gradients" de ces diffï¿½rences [pekkucuksen_icip_2010]. Les auteurs utilisent le ratio des sommes des valeurs absolues des gradients H et V des diffï¿½rences de composantes dans un voisinage.
+I. Principes de base :
+1. Calcul des estimations H et V du R (lig|col R-G-R) ou du B (lig|col G-B-G) en G et inversement [H\&A] -> 1 vraie valeur et 2 estimations directionnelles en chaque pixel.
+2. Leur diffï¿½rence fournit 2 cartes ($\Delta^H$ et $\Delta^V$) des estimations des diffï¿½rences de composantes(G-R et G-B) directionnelles.
+3. Les diffï¿½rences absolues ("gradients" $D^H$ et $D^V$) des diffï¿½rences de composantes sont utilisï¿½es pour dï¿½terminer un poids pour chaque direction dans une fenï¿½tre 5x5. Ce poids est d'autant plus faible que la somme des valeurs absolues des gradients H et V des diffï¿½rences de composantes est ï¿½levï¿½e.
+II. Algo :
+1. Estimation initiale du plan G
+2. Mise ï¿½ jour du plan G en mettant ï¿½ jour les estimations initiales des diffï¿½rences de composantes en pondï¿½rant chacun des 4 ppV.
+3. Calcul des plans R et B, en complï¿½tant d'abord les niveaux manquants diagonaux (par le filtre 7x7 de Paliy), puis les autres en rï¿½utilisant les poids directionnels utilisï¿½s pour le plan G.},
+  language =     {en}
+}
+
+@inproceedings{kiku_icip_2013,
+  author =       {Daisuke Kiku and Yusuke Monno and Sunao Kikuchi and Masayuki Tanaka and Masatoshi Okutomi},
+  title =        {Residual interpolation for color image demosaicking.},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing (ICIP'13)},
+  year =         {2013},
+  day =          {15-18},
+  month =        sep,
+  address =      {Melbourne, Australia},
+  pages =        {2304-2308},
+  url =          {http://dx.doi.org/10.1109/ICIP.2013.6738475,http://www.ok.ctrl.titech.ac.jp/res/DM/RI.html},
+  keywords =     {},
+  file =         {2013/kiku_icip_2013.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {A color difference interpolation technique is widely used for color image demosaicking. In this paper, we propose residual interpolation as an alternative to the color difference interpolation, where the residual is a difference between an observed and a tentatively estimated pixel value. We incorporate the proposed residual interpolation into the gradient based threshold free (GBTF) algorithm, which is one of current state-of-the-art demosaicking algorithms. Experimental results demonstrate that our proposed demosaicking algorithm using the residual interpolation can give state-of-the-art performance for the 30 images of Kodak and IMAX datasets.}
+}
+
+@article{losson_cviu_2013,
+  author =       {Olivier Losson and Alice Porebski and Nicolas Vandenbroucke and Ludovic Macaire},
+  title =        {Color texture analysis using {CFA} chromatic co-occurrence matrices},
+  journal =      {Computer Vision and Image Understanding},
+  year =         {2013},
+  volume =       {117},
+  number =       {7},
+  pages =        {747-763},
+  month =        jul,
+  url =          {http://hal.archives-ouvertes.fr/hal-00799371,http://dx.doi.org/10.1016/j.cviu.2013.03.001},
+  keywords =     {Color texture analysis, Chromatic co-occurrence matrix, Bayer color filter array, CFA demosaicing, Texture classification, VisTex and Outex databases},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Most color cameras are fitted with a single sensor that provides color filter array (CFA) images, in which each pixel is characterized by one of the three color components (either red, green, or blue). To produce a color image, the two missing color components have to be estimated at each pixel of the corresponding CFA image. This process is commonly referred to as demosaicing, and its result as the demosaiced color image.
+Since demosaicing methods intend to produce ï¿½perceptually satisfyingï¿½ demosaiced color images, they attempt to avoid color artifacts. Because this is often achieved by filtering, demosaicing schemes tend to alter the local texture information that is, however, useful to discriminate texture images. To avoid this issue while exploiting color information for texture classification, it may be relevant to compute texture descriptors directly from CFA images.
+From chromatic co-occurrence matrices (CCMs) that capture the spatial interaction between color components, we derive new descriptors (CFA CCMs) for CFA texture images. Color textures are then compared by means of the similarity between their CFA CCMs. Experimental results achieved on benchmark color texture databases show the efficiency of this approach for texture classification.},
+  issn =         {1077-3142},
+  team =         {vi},
+  _type =        {ACL}
+}
+
+@article{zhang_sp_2012,
+  author =       {Yu Zhang and Guangyi Wang and Jiangtao Xu and Zaifeng Shi and Dexing Dong},
+  title =        {Novel color demosaicking for noisy color filter array data},
+  journal =      {Signal Processing},
+  year =         {2012},
+  volume =       {92},
+  number =       {2},
+  pages =        {455-464},
+  url =          {http://dx.doi.org/10.1016/j.sigpro.2011.08.009},
+  keywords =     {Signal-dependent noise model},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Single sensor digital color still/video cameras use color demosaicking to reproduce full color images from color filter array (CFA) data. The quality of interpolated image will be degraded due to the sensor noise introduced during the image capture process. Many conventional demosaicking-denoising solutions adopt the channel-dependent noise model, which may fit the CMOS/CCD image sensor less than signal-dependent noise model. In this paper, the wavelet sub-band decomposition and synthesis are applied to interpolate the \{CFA\} data with signal-dependent noise model. The major contributions of this work include: (1) The combination of \{LMMSE\} and statistical calculation in wavelet domain are utilized to suppress the signal-dependent noise, which is separated into additive noise and multiplicative noise. (2) In \{CFA\} data, it has been verified that the quantitative relationship between the current pixel and the adjacent pixel, which locate in the same edge. Both simulated and real \{CFA\} images are employed to compare the proposed algorithm with the state-of-the-art techniques reported in the literature. The experimental results confirm that our method outperforms them both on demosaicking performance and on computational cost, when they process the noisy color filter array data.},
+  issn =         {0165-1684}
+}
+
+@article{pekkucuksen_ip_2012,
+  author =       {Ibrahim Pekkucuksen and Yucel Altunbasak},
+  title =        {Edge Strength Filter Based Color Filter Array Interpolation},
+  journal =      {Image Processing, IEEE Transactions on},
+  year =         {2012},
+  volume =       {21},
+  number =       {1},
+  pages =        {393-397},
+  month =        {Jan},
+  url =          {http://dx.doi.org/10.1109/TIP.2011.2155073,https://sites.google.com/site/ibrahimepekkucuksen/publications},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {For economic reasons, most digital cameras use color filter arrays instead of beam splitters to capture image data. As a result of this, only one of the required three color samples becomes available at each pixel location and the other two need to be interpolated. This process is called Color Filter Array (CFA) interpolation or demosaicing. Many demosaicing algorithms have been introduced over the years to improve subjective and objective interpolation quality. We propose an orientation-free edge strength filter and apply it to the demosaicing problem. Edge strength filter output is utilized both to improve the initial green channel interpolation and to apply the constant color difference rule adaptively. This simple edge directed method yields visually pleasing results with high CPSNR.},
+  issn =         {1057-7149}
+}
+
+@inproceedings{he_icip_2012,
+  author =       {Fang-Lin He and Yu-Chiang Frank Wang and Kai-Lung Hua},
+  title =        {Self-learning approach to color demosaicking via support vector regression},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing ({ICIP}'12)},
+  year =         {2012},
+  day =          {30-3},
+  month =        sep,
+  address =      {Orlando, Florida, USA},
+  pages =        {2765-2768},
+  url =          {http://dx.doi.org/10.1109/ICIP.2012.6467472},
+  keywords =     {image colour analysis;image restoration;image segmentation;support vector machines;color demosaicking;color filter array;color image;digital cameras;image dependent information;learning based demosaicking method;objective image quality measures;restoratio},
+  file =         {2012/he_icip_2012.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Most digital cameras capture one primary color at each pixel by a single sensor overlaid with a color filter array. To recover a full color image from incomplete color samples, one needs to restore the two missing color values for each pixel. This restoration process is known as color demosaicking. In this paper, we present a novel self-learning approach to this problem via support vector regression. Unlike prior learning-based demosaicking methods, our approach aims at extracting image-dependent information in constructing the learning model, and we do not require any additional training data. Experimental results show that our proposed method outperforms many state-of-the-art techniques in both subjective and objective image quality measures.}
+}
+
+@article{gao_jvcir_2012,
+  author =       {Dahua Gao and Xiaolin Wu and Guangming Shi and Lei Zhang},
+  title =        {Color demosaicking with an image formation model and adaptive {PCA}},
+  journal =      {Journal of Visual Communication and Image Representation},
+  year =         {2012},
+  volume =       {23},
+  number =       {7},
+  pages =        {1019-1030},
+  url =          {http://dx.doi.org/10.1016/j.jvcir.2012.06.009,http://or.nsfc.gov.cn/bitstream/00001903-5/93737/1/1000004858935.pdf},
+  keywords =     {},
+  file =         {2012/gao_jvcir_2012.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Color demosaicking is an ill-posed inverse problem of image restoration. The performance of a color demosaicking algorithm depends on how thoroughly it can exploit domain knowledge to confine the solution space for the underlying true color image. We propose an â„“1â„“1 minimization technique for color demosaicking that exploits spectral and spatial sparse representations of natural images jointly. The spectral sparse representation is derived from a physical image formation model; the spatial sparse representation is based on a windowed adaptive principal component analysis. In some of most challenging cases of color demosaicking, the new technique outperforms many existing techniques by a large margin in PSNR and achieves higher visual quality.}
+}
+
+@article{losson_ietip_2012,
+  author =       {Olivier Losson and Ludovic Macaire},
+  title =        {Colour texture classification from colour filter array images using various colour spaces},
+  journal =      {IET Image Processing},
+  year =         {2012},
+  volume =       {6},
+  number =       {8},
+  pages =        {1192-1204},
+  month =        nov,
+  url =          {http://dx.doi.org/10.1049/iet-ipr.2011.0556,http://hal.archives-ouvertes.fr/hal-00732780},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {This paper focuses on the classification of colour textures acquired by single-sensor colour cameras. \linelabel{modif1_1}In such cameras, the Colour Filter Array (CFA) makes each photosensor sensitive to only one colour component, and CFA images must be demosaiced to estimate the final colour images. We show that demosaicing is detrimental to the textural information because it affects colour texture descriptors such as Chromatic Co-occurrence Matrices (CCMs). However, it remains desirable to take advantage of the chromatic information for colour texture classification. This information is incompletely defined in CFA images, in which each pixel is associated to one single colour component. It is hence a challenge to extract standard colour texture descriptors from CFA images without demosaicing.
+
+We propose to form a pair of quarter-size colour images directly from CFA images without any estimation, then to compute the CCMs of these quarter-size images. This allows us to compare textures by means of their CCM-based similarity in texture classification or retrieval schemes, with still the ability to use different colour spaces. Experimental results achieved on benchmark colour texture databases show the effectiveness of the proposed approach for texture classification, and a complexity study highlights its computational efficiency.},
+  team =         {vi},
+  _type =        {ACL}
+}
+
+@inproceedings{herwig_spie_2011,
+  author =       {Johannes Herwig and Josef Pauli},
+  title =        {Joint high dynamic range imaging and color demosaicing},
+  booktitle =    {Proceedings of the {SPIE} Electronic Imaging Annual Symposium ({SPIE}'11): Digital Photography {VII}},
+  year =         {2011},
+  day =          {23},
+  month =        jan,
+  editor =       {Francisco H. Imai and Feng Xiao},
+  address =      {San Francisco Airport, California, USA},
+  pages =        {81801E-81801E-11},
+  url =          {http://dx.doi.org/10.1117/12.898363},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {A non-parametric high dynamic range (HDR) fusion approach is proposed that works on raw images of single-sensor color imaging devices which incorporate the Bayer pattern. Thereby the non-linear opto-electronic conversion function (OECF) is recovered before color demosaicing, so that interpolation artifacts do not aect the photometric calibration. Graph-based segmentation greedily clusters the exposure set into regions of roughly constant radiance in order to regularize the OECF estimation. The segmentation works on Gaussian-blurred sensor images, whereby the articial gray value edges caused by the Bayer pattern are smoothed away. With the OECF known the 32-bit HDR radiance map is reconstructed by weighted summation from the dierently exposed raw sensor images. Because the radiance map contains lower sensor noise than the individual images, it is nally demosaiced by weighted bilinear interpolation which prevents the interpolation across edges. Here, the previous segmentation results from the photometric calibration are utilized. After demosaicing, tone mapping is applied, whereby remaining interpolation artifacts are further damped due to the coarser tonal quantization of the resulting image.}
+}
+
+@article{getreuer_ipol_2011a,
+  author =       {Pascal Getreuer},
+  title =        {Malvar-He-Cutler Linear Image Demosaicking},
+  journal =      {Image Processing On Line},
+  year =         {2011},
+  volume =       {1},
+  url =          {http://dx.doi.org/10.5201/ipol.2011.g_mhcd},
+  keywords =     {},
+  confidential = {n},
+  language =     {en}
+}
+
+@article{bendicks_jsip_2011,
+  author =       {Christian Bendicks and Dominique Tarlet and Christoph Roloff and Robert Bord\'as and Bernd Wunderlich and Bernd Michaelis and Dominique Th\'evenin},
+  title =        {Improved 3-D Particle Tracking Velocimetry with Colored Particles},
+  journal =      {Journal of Signal and Information Processing},
+  year =         {2011},
+  volume =       {2},
+  number =       {2},
+  month =        may,
+  url =          {http://dx.doi.org/10.4236/jsip.2011.22009},
+  keywords =     {},
+  file =         {2011/bendicks_jsip_2011.pdf},
+  confidential = {n},
+  comments =     {Work directly on Bayer raw images},
+  language =     {en},
+  abstract =     {The present work introduces an extension to three-dimensional Particle Tracking Velocimetry (3-D PTV) in order to investigate small-scale flow patterns. Instead of using monochrome particles the novelty over the prior state of the art is the use of differently dyed tracer particles and the identification of particle color classes directly on Bayer raw images. Especially in the case of a three camera setup it will be shown that the number of ambiguities is dramatically decreased when searching for homologous points in different images. This refers particularly to the determination of spatial parti- cle positions and possibly to the linking of positions into trajectories. The approach allows the handling of tracer parti- cles in high numbers and is therefore perfectly suited for gas flow investigations. Although the idea is simple, difficult- ties may arise particularly in determining the color class of individual particle when its projection on a Bayer sensor is too small. Hence, it is not recommended to extract features from RGB images for color class recognition due to infor- mation loss during the Bayer demosaicing process. This article demonstrates how to classify the color of small sized tracers directly on Bayer raw images.}
+}
+
+@inproceedings{singh_icip_2011,
+  author =       {Tripurari Singh and Mritunjay Singh},
+  title =        {Disregarding spectral overlap--A unified approach for demosaicking, compressive sensing and color filter array design},
+  booktitle =    {Proceedings of the 18th IEEE International Conference on Image Processing (ICIP'11)},
+  year =         {2011},
+  day =          {11-14},
+  month =        sep,
+  address =      {Brussels, Belgium},
+  pages =        {3161-3164},
+  url =          {http://dx.doi.org/10.1109/ICIP.2011.6116338,http://imagealgorithmics.com/},
+  keywords =     {compressed sensing;filtering theory;image colour analysis;image segmentation;random processes;Bayer CFA;CFA design;PSNR;chrominance spectra;color filter array design;compressive sensing;demosaicking;linear universal demosaicker;luminance;nonlinear demosai},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Modern Color Filter Array (CFA) designs avoid overlap of luminance and chrominance spectra as it is widely believed to cause irreversible crosstalk and aliasing. In this paper, we present a simple formulation of the demosaicking problem that disregards spectral overlap - and thus the geometry of the spectra - and instead connects the luminance and chrominance resolutions in a more fundamental way to the photosite density of the sensor. A linear universal demosaicker consisting of space variant filters results from this formulation along with CFA designs that capture more image information than competing designs. This includes the interesting class of random RGB designs that outperform the Bayer CFA with nonlinear demosaickers in terms of PSNR and have a number of additional desirable properties. Furthermore, we present non-linear enhancements to our universal demosaicker and show them to be either related to compressive sensing or an alternate reconstruction algorithm for it.}
+}
+
+@article{hao_ip_2011,
+  author =       {Pengwei Hao and Yan Li and Zhouchen Lin and \'Eric Dubois},
+  title =        {A Geometric Method for Optimal Design of Color Filter Arrays},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2011},
+  volume =       {20},
+  number =       {3},
+  pages =        {709-722},
+  month =        mar,
+  url =          {http://dx.doi.org/10.1109/TIP.2010.2077642,http://www.eecs.qmul.ac.uk/$\sim$phao/CFA/acude/},
+  keywords =     {cameras;convex programming;discrete Fourier transforms;frequency-domain analysis;image colour analysis;image representation;image segmentation;optical filters;CFA;DFT;color filter arrays;constrained optimization;convex polygon;convex polyhedron;demosaicki},
+  confidential = {n},
+  language =     {en},
+  abstract =     {A color filter array (CFA) used in a digital camera is a mosaic of spectrally selective filters, which allows only one color component to be sensed at each pixel. The missing two components of each pixel have to be estimated by methods known as demosaicking. The demosaicking algorithm and the CFA design are crucial for the quality of the output images. In this paper, we present a CFA design methodology in the frequency domain. The frequency structure, which is shown to be just the symbolic DFT of the CFA pattern (one period of the CFA), is introduced to represent images sampled with any rectangular CFAs in the frequency domain. Based on the frequency structure, the CFA design involves the solution of a constrained optimization problem that aims at minimizing the demosaicking error. To decrease the number of parameters and speed up the parameter searching, the optimization problem is reformulated as the selection of geometric points on the boundary of a convex polygon or the surface of a convex polyhedron. Using our methodology, several new CFA patterns are found, which outperform the currently commercialized and published ones. Experiments demonstrate the effectiveness of our CFA design methodology and the superiority of our new CFA patterns.},
+  issn =         {1057-7149}
+}
+
+@article{sun_jcit_2011,
+  author =       {Guangling Sun},
+  title =        {Demosaicing and zooming for color filter array via residual image reconstruction},
+  journal =      {Journal of Computer and Information Technology},
+  year =         {2011},
+  volume =       {1},
+  number =       {2},
+  url =          {http://www.academypublish.org/paper/demosaicing-and-zooming-for-color-filter-array-via-residual-image-reconstruction},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {A method of demosaicing and zooming for color filter array (CFA) via residual image reconstruction is presented. Given the demosaicing and zooming methods, a residual image between the â€˜genuineâ€™ image and an initial demosaiced and zoomed image is reconstructed using a dictionary and sparse coding. The â€˜genuineâ€™ image has richer edges and details than that of the initially obtained image. A generic dictionary is generated by learning a large set of training images and their sparse representations. An adaptive dictionary specific to the input CFA is also learned. Using the adaptive dictionary, an initial residual image is reconstructed, and an optimal scaled version of the residual image is then calculated depending on the input CFA. The optimal scaled residual image is added back to the initially obtained image to get the final result. Experimental results show the performance in terms of PSNR and visual quality.}
+}
+
+@article{getreuer_ipol_2011,
+  author =       {Pascal Getreuer},
+  title =        {Zhang--Wu Directional {LMMSE} Image Demosaicking},
+  journal =      {Image Processing On Line},
+  year =         {2011},
+  volume =       {1},
+  url =          {http://dev.ipol.im/$\sim$getreuer/code/,http://dx.doi.org/10.5201/ipol.2011.g_zwld},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Most digital cameras capture samples through a color filter array. At every pixel location, the camera observes one of either the red, green, or blue component. Demosaicking (or demosaicing) is the problem of using this incomplete information to estimate all three color components at every pixel. Zhang and Wu proposed an effective solution to this problem in ï¿½Color Demosaicking via Directional Linear Minimum Mean-Square-Error Estimation.}
+}
+
+@article{zhang_jei_2011,
+  author =       {Lei Zhang and Xiaolin Wu and Antoni Buades and Xin Li},
+  title =        {Color demosaicking by local directional interpolation and nonlocal adaptive thresholding},
+  journal =      {Journal of Electronic Imaging},
+  year =         {2011},
+  volume =       {20},
+  number =       {2},
+  pages =        {023016-023016},
+  month =        jun,
+  url =          {http://dx.doi.org/10.1117/1.3600632,http://www4.comp.polyu.edu.hk/$\sim$cslzhang/paper/NAT_CDM_JEI.pdf,http://www4.comp.polyu.edu.hk/$\sim$cslzhang/CDM_Dataset.htm},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Single sensor digital color cameras capture only one of
+the three primary colors at each pixel and a process called color
+demosaicking (CDM) is used to reconstruct the full color images.
+Most CDM algorithms assume the existence of high local spectral
+redundancy in estimating the missing color samples. However, for
+images with sharp color transitions and high color saturation, such
+an assumption may be invalid and visually unpleasant CDM errors
+will occur. In this paper, we exploit the image nonlocal redundancy to
+improve the local color reproduction result. First, multiple local directional
+estimates of a missing color sample are computed and fused
+according to local gradients. Then, nonlocal pixels similar to the estimated
+pixel are searched to enhance the local estimate. An adaptive
+thresholding method rather than the commonly used nonlocal means
+filtering is proposed to improve the local estimate. This allows the
+final reconstruction to be performed at the structural level as opposed
+to the pixel level. Experimental results demonstrate that the
+proposed local directional interpolation and nonlocal adaptive thresholding
+method outperforms many state-of-the-art CDM methods in
+reconstructing the edges and reducing color interpolation artifacts,
+leading to higher visual quality of reproduced color images}
+}
+
+@inproceedings{condat_icip_2010,
+  author =       {Laurent Condat},
+  title =        {A simple, fast and efficient approach to denoisaicking: Joint demosaicking and denoising},
+  booktitle =    {Proceedings of the 17th IEEE International Conference on Image Processing ({ICIP}'10)},
+  year =         {2010},
+  day =          {26-29},
+  month =        sep,
+  address =      {Hong Kong, China},
+  pages =        {905-908},
+  url =          {http://dx.doi.org/10.1109/ICIP.2010.5652196,http://www.greyc.ensicaen.fr/$\sim$lcondat/publis/condat_icip10_denoisaicking.pdf,http://www.gipsa-lab.fr/$\sim$laurent.condat/software.html},
+  keywords =     {},
+  file =         {2010/condat_icip_2010.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {In most digital cameras, color images are captured by a sensor overlaid by the Bayer color filter array (CFA). Denoisaicking (joint demosaicking and denoising) consists in reconstructing a color image from the noisy ï¿½Bayerizedï¿½ data output by the sensor. We show that the frequency analysis of the sampling pattern induced by the Bayer CFA provides a simple way to reconstruct the luminance and chrominance channels of the image. The process is reduced to adequate linear filtering operations and denoising of the grayscale luminance image.}
+}
+
+@article{lu_ip_2010,
+  author =       {Yue Lu and Mina Karzand and Martin Vetterli},
+  title =        {Demosaicking by alternating projections: theory and fast one-step implementation},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2010},
+  volume =       {19},
+  number =       {8},
+  pages =        {2085-2098 },
+  month =        aug,
+  url =          {http://dx.doi.org/10.1109/TIP.2010.2045710,http://rr.epfl.ch/paper/LKV2010},
+  keywords =     {},
+  file =         {2010/lu_ip_2010.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Color image demosaicking is a key process in the digital imaging pipeline. In this paper, we study a classical demosaicking algorithm based on alternating projections (AP), proposed by Gunturk, Altunbasak and Mersereau in 2002. Since its publication, the AP algorithm has been widely cited and served as a benchmark in a series of more recent papers in the demosaicking literature. Despite impressive performances, a limitation of the AP algorithm is its high computational complexity. We provide three main contributions in this paper. First, we present a rigorous analysis of the convergence property of the AP demosaicking algorithm, showing that it is a contraction mapping, with a unique fixed point. Second, we show that this fixed point is in fact the solution to a constrained quadratic minimization problem, thus establishing the optimality of the AP algorithm. Finally, using the tool of polyphase representation, we show how to obtain the results of the AP algorithm in a single step, implemented as linear filtering in the polyphase domain. Replacing the original iterative procedure by the proposed one-step solution leads to substantial computational savings, by about an order of magnitude in our experiments}
+}
+
+@article{losson_aiep_2010,
+  author =       {Olivier Losson and Ludovic Macaire and Yanqin Yang},
+  title =        {Comparison of color demosaicing methods},
+  journal =      {Advances in Imaging and Electron Physics},
+  year =         {2010},
+  volume =       {162},
+  pages =        {173-265},
+  month =        jul,
+  url =          {http://dx.doi.org/10.1016/S1076-5670(10)62005-8},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  issn =         {1076-5670},
+  team =         {vi},
+  _type =        {ACL}
+}
+
+@inproceedings{mairal_iccv_2009,
+  author =       {Julien Mairal and Francis Bach and Jean Ponce and Guillermo Sapiro and Andrew Zisserman},
+  title =        {Non-local sparse models for image restoration},
+  booktitle =    {Proceedings of the 12th International Conference on Computer Vision ({ICCV}'09)},
+  year =         {2009},
+  day =          {27-4},
+  month =        sep,
+  address =      {Kyoto, Japan},
+  pages =        {2272-2279},
+  url =          {http://dx.doi.org/10.1109/ICCV.2009.5459452,http://lear.inrialpes.fr/people/mairal/publications.php,http://lear.inrialpes.fr/people/mairal/demosaicking_ICCV09.tar.gz},
+  keywords =     {image classification;image coding;image denoising;image reconstruction;image restoration;digital cameras;image classification;image demosaicking;image denoising;image reconstruction;image restoration;learned dictionary;nonlocal sparse models;simultaneous },
+  confidential = {n},
+  language =     {en},
+  abstract =     {We propose in this paper to unify two different approaches to image restoration: On the one hand, learning a basis set (dictionary) adapted to sparse signal descriptions has proven to be very effective in image reconstruction and classification tasks. On the other hand, explicitly exploiting the self-similarities of natural images has led to the successful non-local means approach to image restoration. We propose simultaneous sparse coding as a framework for combining these two approaches in a natural manner. This is achieved by jointly decomposing groups of similar signals on subsets of the learned dictionary. Experimental results in image denoising and demosaicking tasks with synthetic and real noise show that the proposed method outperforms the state of the art, making it possible to effectively restore raw images from digital cameras at a reasonable speed and memory cost.}
+}
+
+@article{huang_oe_2009,
+  author =       {Wen-Tsung Huang and Wen-Jan Chen and Shen-Chuan Tai},
+  title =        {Effective soft-decision demosaicking using directional filtering and embedded artifact refinement},
+  journal =      {Optical Engineering},
+  year =         {2009},
+  volume =       {48},
+  number =       {4},
+  pages =        {047003-047003-13},
+  month =        apr,
+  url =          {http://dx.doi.org/10.1117/1.3120284,http://dcmc.ee.ncku.edu.tw/$\sim$hwt94d/},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Demosaicking is an interpolation process that transforms a color filter array (CFA) image into a full-color image in a single-sensor imaging pipeline. In all demosaicking techniques, the interpolation of the green components plays a central role in dictating the visual quality of reconstructed images because green light is of maximum sensitivity in the human visual system. Guided by this point, we propose a new soft-decision demosaicking algorithm using directional filtering and embedded artifact refinement. The novelty of this approach is twofold. First, we lift the constraint of the Bayer CFA that results in the absence of diagonal neighboring green color values for directionally recovering diagonal edges. The developed directional interpolation method is fairly robust in dealing with the four edge features, namely, vertical, horizontal, 45-deg diagonal, and 135-deg diagonal. In addition, the proposed embedded refinement scheme provides an efficient way for soft-decision-based algorithms to achieve improved results with fewer computations. We have compared this new approach to six state-of-the-art methods, and it can outstandingly preserve more edge details and handle fine textures well, without requiring a high computational cost.}
+}
+
+@article{zhang_ip_2009a,
+  author =       {Fan Zhang and Xiaolin Wu and Xiaokang Yang and Wenjun Zhang and Lei Zhang},
+  title =        {Robust color demosaicking with adaptation to varying spectral correlations},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2009},
+  volume =       {18},
+  number =       {12},
+  pages =        {2706-2717},
+  month =        dec,
+  url =          {http://dx.doi.org/10.1109/TIP.2009.2029987,http://www4.comp.polyu.edu.hk/$\sim$cslzhang/paper/TIP_2009_Dec.pdf,http://cilab.knu.ac.kr/seminar/Seminar/2015/20150321_%EC%A7%80%ED%9B%88.pdf},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Almost all existing color demosaicking algorithms for digital cameras are designed on the assumption of high correlation between red, green, blue (or some other primary color) bands. They exploit spectral correlations between the primary color bands to interpolate the missing color samples, but in areas of no or weak spectral correlations, these algorithms are prone to large interpolation errors. Such demosaicking errors are visually objectionable because they tend to correlate with object boundaries and edges. This paper proposes a remedy to the above problem that has long been overlooked in the literature. The main contribution of this work is a hybrid demosaicking approach that supplements an existing color demosaicking algorithm by combining its results with those of adaptive intraband interpolation. This is formulated as an optimal data fusion problem, and two solutions are proposed: one is based on linear minimum mean-square estimation and the other based on support vector regression. Experimental results demonstrate that the new hybrid approach is more robust and eliminates the worst type of color artifacts of existing color demosaicking methods.}
+}
+
+@article{chung_ip_2008,
+  author =       {Kuo-Liang Chung and Wei-Jen Yang and Wen-Ming Yan and Chung-Chou Wang},
+  title =        {Demosaicing of Color Filter Array Captured Images Using Gradient Edge Detection Masks and Adaptive Heterogeneity-Projection},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2008},
+  volume =       {17},
+  number =       {12},
+  pages =        {2356-2367},
+  month =        dec,
+  url =          {http://dx.doi.org/10.1109/TIP.2008.2005561,http://faculty.csie.ntust.edu.tw/$\sim$klchung/Prof_English.htm#Selected_Publications,http://jacques.desmis.perso.neuf.fr/geraud/AEGHD.pdf,http://140.118.175.164/WJYang/paper/Demosaic/},
+  keywords =     {correlation methods;edge detection;gradient methods;image colour analysis;image segmentation;adaptive heterogeneity-projection;color filter array captured images;gradient edge detection masks;high-quality demosaicing algorithm;image quality;spectral-spati},
+  confidential = {n},
+  comments =     {(Olivier:)
+L'algo combine d'abord l'estimation de la luminance propos\'ee par Alleysson et al. (2005) et les 4 masques de Sobel pour calculer les d\'eriv\'ees directionnelles "directement" sur l'image CFA (cf. masques Fig.6).
+},
+  language =     {en},
+  abstract =     {Without demosaicing processing, this paper first proposes a new approach to extract more accurate gradient/edge information on mosaic images directly. Next, based on spectral-spatial correlation, a novel adaptive heterogeneity-projection with proper mask size for each pixel is presented. Combining the extracted gradient/edge information and the adaptive heterogeneity-projection values, a new edge-sensing demosaicing algorithm is presented. Based on 24 popular testing images, experimental results demonstrated that our proposed high-quality demosaicing algorithm has the best image quality performance when compared with several recently published algorithms.},
+  issn =         {1057-7149}
+}
+
+@article{brezak_ras_2008,
+  author =       {MiÅ¡el Brezak and Ivan PetroviÄ‡ and and Edouard Ivanjko},
+  title =        {Robust and accurate global vision system for real time tracking of multiple mobile robots},
+  journal =      {Robotics and Autonomous Systems},
+  year =         {2008},
+  volume =       {56},
+  number =       {3},
+  pages =        {213-230},
+  url =          {http://dx.doi.org/10.1016/j.robot.2007.08.002,http://act.rasip.fer.hr/old/papers/Robust_Brezak07.pdf},
+  keywords =     {Intelligent space},
+  confidential = {n},
+  language =     {en},
+  abstract =     {This paper presents a new global vision system for tracking of multiple mobile robots. To the best knowledge of the authors it outperforms all existing global vision systems with respect to measurement precision and accuracy, high speed and real time operation and reliable tracking of large (theoretically unlimited) number of robots under light intensity changes. The originality of the proposed system lies mainly in specially designed robot marks and robotsï¿½ poses measuring directly in Bayer format image delivered by the camera. These two measures enable robust pose estimation of the robots with subpixel precision, while the significant simplification of the image processing algorithms ensures tracking of many robots with very high framerates. With algorithms running on a 3 \{GHz\} Athlon 64 processor 65 robots can be tracked at 80 fps. Moreover, in order to perform a thorough analysis of the system performances related to defined requirements, we propose a new experimental procedure that can serve as a benchmark for evaluation of other systems for the same purpose.},
+  issn =         {0921-8890}
+}
+
+@article{hirakawa_ip_2008,
+  author =       {Keigo Hirakawa and Patrick J. Wolfe},
+  title =        {Spatio-spectral color filter array design for optimal image recovery},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2008},
+  volume =       {17},
+  number =       {10},
+  pages =        {1876-1890},
+  url =          {http://dx.doi.org/10.1109/TIP.2008.2002164},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {In digital imaging applications, data are typically obtained via a spatial subsampling procedure implemented as a color filter array - a physical construction whereby only a single color value is measured at each pixel location. Owing to the growing ubiquity of color imaging and display devices, much recent work has focused on the implications of such arrays for subsequent digital processing, including in particular the canonical demosaicking task of reconstructing a full color image from spatially subsampled and incomplete color data acquired under a particular choice of array pattern. In contrast to the majority of the demosaicking literature, we consider here the problem of color filter array design and its implications for spatial reconstruction quality. We pose this problem formally as one of simultaneously maximizing the spectral radii of luminance and chrominance channels subject to perfect reconstruction, and - after proving sub-optimality of a wide class of existing array patterns - provide a constructive method for its solution that yields robust, new panchromatic designs implementable as subtractive colors. Empirical evaluations on multiple color image test sets support our theoretical results, and indicate the potential of these patterns to increase spatial resolution for fixed sensor size, and to contribute to improved reconstruction fidelity as well as significantly reduced hardware complexity.}
+}
+
+@inproceedings{chen_apccas_2006,
+  author =       {Chia-Hsiung Chen and Sao-Jie Chen and Pei-Yung Hsiao},
+  title =        {Edge Detection on the {B}ayer Pattern},
+  booktitle =    {Procs. IEEE Asia Pacific Conference on Circuits and Systems ({APCCAS}'06)},
+  year =         {2006},
+  day =          {4-7},
+  month =        dec,
+  address =      {Singapore},
+  pages =        {1132-1135},
+  url =          {http://dx.doi.org/10.1109/APCCAS.2006.342321},
+  keywords =     {edge detection;image colour analysis;interpolation;smoothing methods;Bayer-patterned images;Gaussian-like smoothing;Laplacian-like edge detection;color filter array interpolation method;color space transformation;image source;Color;Digital cameras;Filters},
+  confidential = {n},
+  language =     {en},
+  abstract =     {This paper describes a novel investigation of edge detection on Bayer-patterned images. Inspired by the color filter array (CFA) interpolation method, we design kernels to perform Gaussian-like smoothing and Laplacian-like edge detection on a Bayer-patterned image. Benefits of using our proposed kernels to process such image source include the computation saving during the interpolation and/or the color space transformation to a full color or grayscale image, and also lower memory requirement on the same time}
+}
+
+@article{chang_jei_2006,
+  author =       {Lanlan Chang and Yap-Peng Tan},
+  title =        {Hybrid color filter array demosaicking for effective artifact suppression},
+  journal =      {Journal of Electronic Imaging},
+  year =         {2006},
+  volume =       {15},
+  number =       {1},
+  pages =        {013003,1-17},
+  month =        jan,
+  url =          {http://www.ntu.edu.sg/home5/CHAN0069/JEI013003.pdf, http://cilab.knu.ac.kr/seminar/Seminar/2006/20060408%20Hybrid%20color%20filter%20array%20demosaicking%20for%20effective%20artifact%20suppression.pdf},
+  keywords =     {},
+  file =         {2006/chang_jei_2006.pdf},
+  confidential = {n},
+  comments =     {(Olivier:) 
+1.Introduction : analyse trï¿½s intï¿½ressante des corrï¿½lations spatiale et spectrale.
+- Corrï¿½lation spatiale = les pixels d'une petite rï¿½gion homogï¿½ne ont des couleurs identiques. Exploitation : prise en compte des caractï¿½ristiques spatiales locales en interpolant le long des contours et pas ) travers. Si mal exploitï¿½e => effet de zipper
+- Corrï¿½lation spectrale = dans une petite rï¿½gion, les diffï¿½rentes composantes couleur de chaque pixel sont fortement interdï¿½pendantes. Exploitation : hypothï¿½se de constance de teinte, approchï¿½e par la diffï¿½rence ou le ratio de 2 plans couleur. Si mal exploitï¿½e => fausses couleurs
+Classification des mï¿½thodes de dï¿½matriï¿½age en 4 classes, selon qu'elles exploitent ou non l'une et/ou l'autre de ces 2 types de corrï¿½lations :
+- pas d'exploitation : copie de pixels, bilinï¿½aire, bicubique
+- corrï¿½lation spatiale : PRI=Pattern-Rec. Interp. (Cok ), indicateurs de contours (Adams)
+- corrï¿½lation spectrale : constance de teinte (Cok), filtrage mï¿½dian (Freeman), projection alternï¿½e (Gunturk), bilinï¿½aire sur les plan de diffï¿½rences de couleur (Pei, Effective Color Interp.)
+- exploitation des 2 types de corrï¿½lations (interpolation adaptative et exploitation de l'information intercouleur) : interpolation adptative dans le plan vert et utilisation des diffï¿½rences de couleur pour les plans R et B (Laroche-Prescott), utilisation des contours dans les plans de diffï¿½rences de composantes (Li), contours+constance de teinte (Kimmel), plan couleur adaptatif (Hamilton), directions d'interpolation cohï¿½rentes (Wu \& Zhang, primary-consistent), basï¿½e sur l'homogï¿½nï¿½itï¿½ (Hirakawa \& Parks)
+2. Artefacts de dï¿½matriï¿½age
+2.1 Effet de zipper : apparaï¿½t principalement dans le plan G (et peut se propager ensuite sur les plans R et B), et sur les contours non diagonaux (exemple d'interpolation bilinï¿½aire de contours vertical et diagonal entre 2 rï¿½gions ayant 2 ndg diffï¿½rents). Pour l'ï¿½viter, il faut reconstruire le G en exploitant les 2 types de corrï¿½lations.
+2.2. Fausses couleurs : dues ï¿½ des incohï¿½rences entre les 3 plans couleur, avec pour consï¿½quence des changements d'intensitï¿½ anormalement ï¿½levï¿½s dans les plans des diffï¿½rences de couleur. Le filtrage mï¿½dian peut aider ï¿½ harmoniser les intensitï¿½s entre voisins, tout en prï¿½servant les contours. Cela permet aussi de rï¿½duire l'effet de zipper, mais ï¿½ la seule condition de ne pas filtrer ï¿½ travers les contours dans les plans des diffï¿½rences de couleur.
+3. Algo proposï¿½ : idï¿½e = dï¿½tection des contours, puis filtrage mï¿½dian adaptatif dans les seules zones hors contours.
+1. Reconstruction
+1.1. Initialisation -> image RGB
+1.1.1. Le plan vert est calculï¿½ grï¿½ce ï¿½ la mï¿½thode d'Hamilton \& Adams (Adapative Color-Plane)
+1.1.2. Les plans R et B sont calculï¿½s en adaptant la mï¿½thode de Cok (pattern adaptive interpolation) aux plans des diffï¿½rences de couleurs
+1.2. Amï¿½lioration (enhancement)
+2. Affinage (refinement)},
+  language =     {en},
+  abstract =     {Color filter array (CFA) demosaicking is an essential process for restoring full-color images from incomplete color samples acquired by single-sensor digital cameras. We present two main contributions to CFA demosaicking. First, we analyze the causes of two main types of CFA demosaicking artifacts and examine the schemes that are effective in suppressing them, respectively. Second, by combining and extending the core merits of the schemes examined, we compose a new CFA demosaicking algorithm to suppress as many demosaicking artifacts as possible and obtain fullcolor images of high quality. Experiments using a large variety of test images have been conducted, and the results show that the proposed method outperforms the existing state-of-the-art methods both visually and in terms of peak signal-to-noise ratio
+and IS\&T.}
+}
+
+@inproceedings{kim_icip_2005,
+  author =       {Chang Won Kim and Moon Gi Kang},
+  title =        {Noise insensitive high resolution demosaicing algorithm considering cross-channel correlation},
+  booktitle =    {Proceedings of the 12th International Conference on Image Processing ({ICIP}'05)},
+  year =         {2005},
+  day =          {11-14},
+  month =        sep,
+  address =      {Genova, Italy},
+  isbn =         {0-7803-9134-9},
+  volume =       {3},
+  pages =        {III-1100-3},
+  url =          {http://dx.doi.org/10.1109/ICIP.2005.1530588},
+  keywords =     {image colour analysis;image denoising;image resolution;image segmentation;interpolation;color difference domain;color filter array;color interpolated image;color interpolation step;cross-channel correlation;edge indicator function;full-color images recove},
+  confidential = {n},
+  language =     {en},
+  abstract =     {The problem of recovering full-color images from a noisy and color-sampled observation is considered in this paper. The noise in imaging sensors corrupts the color filter array (CFA) and introduces artifacts during the color interpolation step. Instead of filtering the noise before or after the color interpolation step, we remove the noise during the color interpolation step. This allows us to obtain a color interpolated image without noise and artifacts especially along the edges and in the detail of the image. Color interpolation is carried out on the weighted color difference domain to consider cross-channel correlation. In order to avoid artifacts in high frequency regions and improve the performance, an edge indicator function is used and directions of edges are considered in the proposed interpolation method. Interpolation artifacts are removed by the modified filtering on color difference domain. Experimental results illustrate the effectiveness of the proposed method.}
+}
+
+@article{alleysson_ip_2005,
+  author =       {David Alleysson and Sabine S\"usstrunk and Jeanny H\'erault},
+  title =        {Linear demosaicing inspired by the human visual system},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2005},
+  volume =       {14},
+  number =       {4},
+  pages =        {439-449},
+  month =        apr,
+  keywords =     {Color, demosaicing, fourier analysis, linear filtering},
+  file =         {2005/alleysson_ip_2005.pdf},
+  confidential = {n},
+  comments =     {(Olivier:)
+1. Les cam\'eras mono-CCD bas\'ees sur un CFA \'echantillonnent 1 seule composante couleur par position spatiale, comme le SVH dans lequel les 3 types de c\^ones sont sensibles \`a des longueurs d'ondes diff\'erentes. On a d\'ecouvert qu'une image \`a 1 composante par pixel peut \^etre interpr\'et\'ee comme la repr\'esentation d'une image dont la luminance et la chrominance ont des positions bien distinctes dans le domaine de Fourier.
+2. Pour reconstruire le signal original, on devrait utiliser une fonction sinc; en pratique, on utilise une approximation de cette fonction id\'eale. L'interpolation la plus simple - bilin\'eaire - ne permet de reconstruire l'image sans artefact d'aliasing que si la fr\'equence maximale dans chaque canal ne d\'epasse pas la moiti\'e de la fr\'equence d'\'echantillonnage.
+3. La repr\'esentation d'une image couleur en luminance et couleurs oppos\'ees correspond mieux \`a la perception humaine que l'encodage RGB des couleurs. Une image couleur peut \^etre repr\'esent\'ee comme la somme d'un scalaire repr\'esentant la luminance et d'un vecteur de 3 couleurs oppos\'ees (chrominance). L'image CFA, pour sa part, peut \^etre exprim\'ee comme la somme d'une luminance scalaire et d'une chrominance scalaire. La luminance est exactement pr\'esente dans une image CFA, mï¿½me si elle est sujette \`a l'aliasing avec la chrominance. La luminance et la chrominance dans une image CFA ont des positions sp\'ecifiques dans le plan de Fourier : la zone de basses fr\'equences correspond \`a la luminance et celles de hautes fr\'equences \`a la chrominance. Chacune peut \^etre estim\'ee par filtrage fr\'equentiel (passe-bas et passe-haut). Lorsque les spectres de la luminance et de la chrominance se recouvrent, les algos de d\'ematri\c{c}age reconstruisent l'information de luminance dans la chrominance (et vice-versa), r\'esultant en des artefacts visuels. Ce sont surtout i) du flou si le filtrage de la luminance est trop \'etroit (sous-estim\'ee) et ii) des fausses couleurs si le filtrage de la chrominance est trop large (sur-estim\'ee); mais aussi parfois iii) un effet de grille si le filtrage de la luminance inclut trop de chrominance et iv) une "couleur d'eau" si le filtrage de la chrominance est trop \'etroit.},
+  language =     {en},
+  abstract =     {There is an analogy between single-chip color cameras and the human visual system in that these two systems acquire only one limited wavelength sensitivity band per spatial location. We have exploited this analogy, defining a model that characterizes a one-color per spatial position image as a coding into luminance and chrominance of the corresponding three-colors per spatial position image. Luminance is defined with full spatial resolution while chrominance contains sub-sampled opponent colors. Moreover, luminance and chrominance follow a particular
+arrangement in the Fourier domain, allowing for demosaicing by spatial frequency filtering. This model shows that visual artifacts after demosaicing are due to aliasing between luminance and chrominance and could be solved using a pre -processing filter. This approach also gives new insights for the representation of single-color per spatial location images and enables formal and controllable procedures to design demosaicing algorithms that perform well compared to concurrent approaches, as demonstrated by experiments.},
+  issn =         {1057-7149}
+}
+
+@techreport{hel_techreport_2004,
+  author =       {Yacov Hel-Or},
+  title =        {The Canonical Correlations of Color Images and their use for Demosaicing},
+  institution =  {HP Laboratories Israel},
+  year =         {2004},
+  month =        feb,
+  url =          {http://www.hpl.hp.com/techreports/2003/HPL-2003-164R1.pdf},
+  keywords =     {},
+  file =         {2004/hel_techreport_2004.pdf},
+  confidential = {n},
+  language =     {en}
+}
+
+@article{sakamoto_ieeetce_1998,
+  author =       {Tadashi Sakamoto and Chikako Nakanishi and Tomohiro Hase},
+  title =        {Software pixel interpolation for digital still cameras suitable for a {32}-bit {MCU}},
+  journal =      {IEEE Transactions on Consumer Electronics},
+  year =         {1998},
+  volume =       {44},
+  number =       {4},
+  pages =        {1342-1352},
+  month =        nov,
+  url =          {http://dx.doi.org/10.1109%2f30.735836},
+  keywords =     {},
+  confidential = {n},
+  language =     {en}
+}
+
+@misc{hamilton_patent_1997,
+  author =       {John F. Hamilton and James E. Adams},
+  title =        {Adaptive color plan interpolation in single sensor color electronic camera},
+  howpublished = {US patent 5,629,734, to Eastman Kodak Co., Patent and Trademark Office, Washington D.C.},
+  month =        may,
+  year =         {1997},
+  url =          {http://www.braindex.com/patent_pdf/index.php?patent=5629734,http://www.freepatentsonline.com/5629734.html?highlight=5629734\&stemming=on},
+  keywords =     {},
+  file =         {1997/hamilton_patent_1997.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Apparatus is described for processing a digitized image signal obtained from an Apparatus is described for processing a digitized image signal obtained from an image sensor having color photosites aligned in rows and columns that generate at least three separate color values but only one color value for each photosite location, structure for interpolating color values for each photosite location so that it has three different color values. The apparatus includes a memory for storing the digitized image signal and a processor operative with the memory for generating an appropriate color value missing from a photosite location by the interpolation of an additional color value for such photosite locations from color values of different colors than the missing color value at nearby photosite locations. The processor also includes structure for obtaining Laplacian second-order values and gradient values in at least two image directions from nearby photosites of the same column and row and for adding the Laplacian second-order values and the gradient values to define a classifier and for selecting a preferred orientation for the interpolation of the missing color value based upon a classifier. Finally, an arrangement is provided for interpolating the missing color value from nearby multiple color values selected to agree with the preferred orientation.}
+}
+
+@misc{hibbard_patent_1995,
+  author =       {Robert H. Hibbard},
+  title =        {Apparatus and method for adaptively interpolating a full color image utilizing luminance gradients},
+  howpublished = {US patent 5,382,976, to Eastman Kodak Co., Patent and Trademark Office, Washington D.C.},
+  month =        jan,
+  year =         {1995},
+  url =          {http://www.freepatentsonline.com/5382976.html?highlight=5382976\&stemming=on},
+  keywords =     {},
+  file =         {1995/hibbard_patent_1995.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Adaptive interpolation is performed by apparatus operating upon a digitized image signal obtained from an image sensor having color photosites that generate a plurality of color values, but only one color per photosite. A digital processor obtains gradient values from the differences between luminance values in vertical and horizontal image directions. The gradient values are compared to a programmable threshold in order to select one of the directions as the preferred orientation for the interpolation of additional luminance values. The interpolation is then performed upon values selected to agree with the preferred orientation.}
+}
+
+@inproceedings{cok_icps_1994,
+  author =       {David R. Cok},
+  title =        {Reconstruction of {CCD} images using template matching},
+  booktitle =    {Proceedings of the IS\&T's 47th Annual Conference, Physics and Chemistry of Imaging Systems (ICPS'94)},
+  year =         {1994},
+  day =          {15-20},
+  month =        may,
+  address =      {Rochester, NY, USA},
+  volume =       {2},
+  pages =        {380-385},
+  keywords =     {},
+  confidential = {n},
+  language =     {en}
+}
+
+@article{zenzo_cvgip_1986,
+  author =       {Silvano Di Zenzo},
+  title =        {A note on the gradient of a multi-image},
+  journal =      {Computer Vision, Graphics, and Image Processing},
+  year =         {1986},
+  volume =       {33},
+  number =       {1},
+  pages =        {116-125},
+  month =        jan,
+  url =          {http://dx.doi.org/10.1016/0734-189X(86)90223-9,http://people.csail.mit.edu/tieu/notebook/imageproc/dizenzo86.pdf,http://www.mathworks.com/matlabcentral/fileexchange/32623-gradient-image-of-multi-spectral-image/content/colgrad.m},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Gradient based edge detection techniques can be extended to multispectral images in various ways: difference operators can be applied to each component of a multi-image, and the results can be combined, e.g., taking the RMS, or the sum, or the maximum of their absolute values. In all of these approaches the image-components do not actually cooperate with one another, i.e., edge evidence along a given direction in one component does not reinforce edge evidence along the same direction in other components. To avoid this, the use of the tensor gradient of multi-images regarded as vector fields is suggested. Explicit formulas for the direction along which the rate of change is maximum, as well as for the maximum rate of change itself, are derived. Digital approximations are obtained by surface fitting}
+}
+
+@article{zhang_ip_2009,
+  author =       {Lei Zhang and Rastislav Lukac and Xiaolin Wu and David Zhang},
+  title =        {{PCA}-based spatially adaptive denoising of {CFA} images for single-sensor digital cameras},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2009},
+  volume =       {18},
+  number =       {4},
+  pages =        {797-812},
+  month =        apr,
+  url =          {http://dx.doi.org/10.1109/TIP.2008.2011384,http://www4.comp.polyu.edu.hk/$\sim$cslzhang/PCA-CFA-Denoising.htm},
+  keywords =     {CFA images;CFA sensor noise;PCA-based spatially adaptive denoising;color demosaicking;color filter array;cost-effective implementation;denoising process;full color images;image acquisition process;interlaced mosaic pattern;local image statistics;noise-cau},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Single-sensor digital color cameras use a process called color demosaicking to produce full color images from the data captured by a color filter array (CFA). The quality of demosaicked images is degraded due to the sensor noise introduced during the image acquisition process. The conventional solution to combating CFA sensor noise is demosaicking first, followed by a separate denoising processing. This strategy will generate many noise-caused color artifacts in the demosaicking process, which are hard to remove in the denoising process. Few denoising schemes that work directly on the CFA images have been presented because of the difficulties arisen from the red, green and blue interlaced mosaic pattern, yet a well designed ldquodenoising first and demosaicking laterrdquo scheme can have advantages such as less noise-caused color artifacts and cost-effective implementation. This paper presents a principle component analysis (PCA) based spatially-adaptive denoising algorithm, which works directly on the CFA data using a supporting window to analyze the local image statistics. By exploiting the spatial and spectral correlations existed in the CFA image, the proposed method can effectively suppress noise while preserving color edges and details. Experiments using both simulated and real CFA images indicate that the proposed scheme outperforms many existing approaches, including those sophisticated demosaicking and denoising schemes, in terms of both objective measurement and visual evaluation.},
+  issn =         {1057-7149}
+}
+
+@inproceedings{seybold_ism_2013,
+  author =       {Tamara Seybold and Christian Keimel and Marion Knopp and Walter Stechele},
+  title =        {Towards an Evaluation of Denoising Algorithms with Respect to Realistic Camera Noise},
+  booktitle =    {Proceedings of the IEEE International Symposium on Multimedia (ISM2013)},
+  year =         {2013},
+  day =          {9-11},
+  month =        dec,
+  address =      {Anaheim, California, USA},
+  pages =        {203-210},
+  url =          {http://dx.doi.org/10.1109/ISM.2013.39},
+  keywords =     {AWGN;image denoising;AWGN;additive white Gaussian noise;demosaicking step;digital images;image denoising algorithms;realistic camera noise;single sensor camera;Cameras;Image color analysis;Noise;Noise measurement;Noise reduction;Visualization;Camera Noise},
+  confidential = {n},
+  language =     {en},
+  abstract =     {The development and tuning of denoising algorithms is usually based on readily processed test images that are artificially degraded with additive white Gaussian noise (AWGN). While AWGN allows us to easily generate test data in a repeatable manner, it does not reflect the noise characteristics in a real digital camera. Realistic camera noise is signal-dependent and spatially correlated due to the demosaicking step required to obtain full-color images. Hence, the noise characteristic is fundamentally different from AWGN. Using such unrealistic data to test, optimize and compare denoising algorithms may lead to incorrect parameter tuning or sub optimal choices in research on denoising algorithms. In this paper, we therefore propose an approach to evaluate denoising algorithms with respect to realistic camera noise: we describe a new camera noise model that includes the full processing chain of a single sensor camera. We determine the visual quality of noisy and denoised test sequences using a subjective test with 18 participants. We show that the noise characteristics have a significant effect on visual quality. Quality metrics, which are required to compare denoising results, are applied, and we evaluate the performance of 10 full-reference metrics and one no-reference metric with our realistic test data. We conclude that a more realistic noise model should be used in future research to improve the quality estimation of digital images and videos and to improve the research on denoising algorithms.}
+}
+
+@inproceedings{condat_icip_2012,
+  author =       {Laurent Condat and Saleh Mosaddegh},
+  title =        {Joint demosaicking and denoising by total variation minimization},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing ({ICIP}'12)},
+  year =         {2012},
+  day =          {30-3},
+  month =        sep,
+  address =      {Orlando, Florida, USA},
+  pages =        {2781-2784},
+  url =          {http://dx.doi.org/10.1109/ICIP.2012.6467476},
+  keywords =     {image colour analysis;image denoising;image reconstruction;minimisation;variational techniques;color image;consistency constraint;digital camera;image demosaicking;image denoising;image reconstruction;luminance channel;noisy raw data output;sensor;total v},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Joint demosaicking and denoising consists in reconstructing a color image from the noisy raw data output by the sensor of a digital camera. We adopt a variational formulation in which the reconstructed image has minimal total variation under the constraint of consistency with the available measurements. This way, the recovered color image has smooth chrominance but the sharp edges are maintained and the noise is transferred to the luminance channel. This channel is denoised subsequently.}
+}
+
+@inproceedings{goossens_icip_2013,
+  author =       {Bart Goossens and Jan Aelterman and Hi\^ep Luong and Aleksandra Pi\v{z}urica and Wilfried Philips},
+  title =        {Complex wavelet joint denoising and demosaicing using {G}aussian scale mixtures},
+  booktitle =    {Proceedings of the IEEE International Conference on Image Processing (ICIP'13)},
+  year =         {2013},
+  day =          {15-18},
+  month =        sep,
+  address =      {Melbourne, Australia},
+  pages =        {445-448},
+  url =          {http://dx.doi.org/10.1109/ICIP.2013.6738092},
+  keywords =     {Gaussian processes;image colour analysis;image denoising;image reconstruction;mixture models;wavelet transforms;GPU;GSM prior model;Gaussian scale mixture prior model;PSNR;RAW digital camera image;complex wavelet joint denoising;local edge direction;recon},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Wavelet-based demosaicing techniques have the advantage of being computationally relatively fast, while having a reconstruction performance that is similar to state-of-the-art techniques. Because the demosaicing rules are linear, it is fairly simple to integrate denoising into the demosaicing. In this paper, we present a method that performs joint denoising and demosaicing, using a Gaussian Scale Mixture (GSM) prior model, thereby modeling the local edge direction as a hidden variable. The results indicate that this technique offers a better reconstruction performance (in PSNR sense and visually) than sequential demosaicing and denoising. On a recent GPU, our algorithm takes 3.5 s for reconstructing a 12 megapixel RAW digital camera image.}
+}
+
+@inproceedings{john_spices_2015,
+  author =       {Deepthi Mary John and Abraham Thomas},
+  title =        {Combined denoising and demosaicing of {CFA} images},
+  booktitle =    {Proceedings of the 15h IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems (SPICES'15)},
+  year =         {2015},
+  day =          {19-21},
+  month =        feb,
+  address =      {Kozhikode, India},
+  pages =        {1-6},
+  url =          {http://dx.doi.org/10.1109/SPICES.2015.7091484},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Color Filter Arrays (CFA) used by single sensor cameras captures single color information at each pixel location. The process of estimating the missing color samples to reconstruct a full color image is called color filter array interpolation or demosaicing. Demosaicing the CFA images without denoising leads to demosaicing artifacts that will reduce the perceptual quality of the image. This paper presents a denoising before demosaicing strategy for denoising of CFA images captured by single sensor cameras. The images captured by the camera using the Bayer pattern are first denoised by Principal Component Analysis and followed by multiscale gradient based demosaicing to preserve the edges and details. The demosaicing strategy is followed by a false color suppression method to remove the residual demosaicing artifacts.}
+}
+
+@inproceedings{danielyan_lnla_2009,
+  author =       {Aram Danielyan and Markku Vehvilainen and Alessandro Foi and Vladimir Katkovnik and Karen Egiazarian},
+  title =        {Cross-color {BM3D} filtering of noisy raw data},
+  booktitle =    {Proceedings of the 2009 International Workshop on Local and Non-Local Approximation in Image Processing (LNLA 2009)},
+  year =         {2009},
+  day =          {19-21},
+  month =        aug,
+  address =      {Tuusula, Finland},
+  pages =        {125-129},
+  keywords =     {Gaussian noise;filtering theory;image colour analysis;image denoising;image matching;image reconstruction;image segmentation;Gaussian noise model;Poissonian noise model;block matching 3D filter;color filter array data denoising;color image reconstruction;},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Color image reconstruction from noisy color filter array (CFA) data is considered. A modification of the Block Matching 3D (BM3D) filter for CFA data denoising utilizing cross-color correlations is proposed. Denoised images are then demosaicked by algorithms developed for noise-free data leading to state-of-the-art performance for both Gaussian and Poissonian noise models.}
+}
+
+@article{khashabi_ip_2014,
+  author =       {Daniel Khashabi and Sebastian Nowozin and Jeremy Jancsary Andrew W. Fitzgibbon},
+  title =        {Joint Demosaicing and Denoising via Learned Nonparametric Random Fields},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2014},
+  volume =       {23},
+  number =       {12},
+  pages =        {4968-4981},
+  month =        dec,
+  url =          {http://dx.doi.org/10.1109/TIP.2014.2359774},
+  keywords =     {image colour analysis;image denoising;image reconstruction;learning (artificial intelligence);statistical analysis;PSNR;color filter array;color images reconstruction;demosaicing method;image demosaicing;image denoising;imaging applications;learned nonpar},
+  confidential = {n},
+  language =     {en},
+  abstract =     {We introduce a machine learning approach to demosaicing, the reconstruction of color images from incomplete color filter array samples. There are two challenges to overcome by a demosaicing method: 1) it needs to model and respect the statistics of natural images in order to reconstruct natural looking images and 2) it should be able to perform well in the presence of noise. To facilitate an objective assessment of current methods, we introduce a public ground truth data set of natural images suitable for research in image demosaicing and denoising. We then use this large data set to develop a machine learning approach to demosaicing. Our proposed method addresses both demosaicing challenges by learning a statistical model of images and noise from hundreds of natural images. The resulting model performs simultaneous demosaicing and denoising. We show that the machine learning approach has a number of benefits: 1) the model is trained to directly optimize a user-specified performance measure such as peak signal-to-noise ratio (PSNR) or structural similarity; 2) we can handle novel color filter array layouts by retraining the model on such layouts; and 3) it outperforms the previous state-of-the-art, in some setups by 0.7-dB PSNR, faithfully reconstructing edges, textures, and smooth areas. Our results demonstrate that in demosaicing and related imaging applications, discriminatively trained machine learning models have the potential for peak performance at comparatively low engineering effort.},
+  issn =         {1057-7149}
+}
+
+@inproceedings{siddiqui_icassp_2010,
+  author =       {Hasib Siddiqui and Hau Hwang},
+  title =        {Training-based demosaicing},
+  booktitle =    {Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP'10)},
+  year =         {2010},
+  day =          {14-19},
+  month =        mar,
+  address =      {Dallas, Texas, USA},
+  pages =        {1034-1037},
+  url =          {http://dx.doi.org/10.1109/ICASSP.2010.5495325},
+  keywords =     {cameras;filtering theory;image colour analysis;image segmentation;image sensors;interpolation;learning (artificial intelligence);statistical analysis;blue color filters;color filter array image;difference channel bilinear interpolation;digital cameras;exa},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Typical digital cameras use a single-chip image sensor covered with a mosaic of red, green, and blue color filters for capturing color information. At each pixel location, only one of the three color values is known. The interpolation of the two missing color values at each pixel in a color filter array image (CFA) is called demosaicing. In this paper, we propose a novel training-based approach for computing the missing green pixels in a CFA. The algorithm works by extracting a multi-dimensional feature vector comprising derivatives of various orders computed in a spatial neighborhood of the pixel being interpolated. Using a statistical machine learning framework, the feature vector is then used to predict the optimal interpolation direction for estimating the missing green pixel. The parameters of the statistical model are learned in an offline training procedure using example training images. Once the green channel has been estimated, the red and blue pixels are estimated using bilinear interpolation of the difference (chrominance) channels. Both subjective and objective evaluations show that the proposed demosaic algorithm yields a high output image quality. The algorithm is computationally and memory efficient, and its sequential architecture makes it easy to implement in an imaging system.}
+}
+
+@article{wang_spl_2015,
+  author =       {Lei Wang and Gwanggil Jeon},
+  title =        {Bayer Pattern {CFA} Demosaicking Based on Multi-Directional Weighted Interpolation and Guided Filter},
+  journal =      {IEEE Signal Processing Letters},
+  year =         {2015},
+  volume =       {22},
+  number =       {11},
+  pages =        {2083-2087},
+  month =        nov,
+  url =          {http://dx.doi.org/10.1109/LSP.2015.2458934,http://eisp.incheon.ac.kr/publications.jsp},
+  keywords =     {correlation methods;filtering theory;image colour analysis;image reconstruction;image resolution;image segmentation;interpolation;Bayer pattern CFA demosaicking;CPSNR;FSIM;blue component estimation;color image demosaicking;color peak signal-to-noise ratio},
+  confidential = {n},
+  language =     {en},
+  abstract =     {In this letter, we proposed a new framework for color image demosaicking by using different strategies on green (G) and red/blue (R/B) components. Firstly, for G component, the missing samples are estimated by eight-direction weighted interpolation via exploiting spatial and spectral correlations of neighboring pixels. The G plane can be well reconstructed by considering the joint contribution of pre-estimations along eight interpolation directions with different weighting factors. Secondly, we estimate R/B components using guided filter with the reconstructed G plane as guidance image. Simulation results verify that, the proposed framework performs better than state-of-the-art demosaicking methods in term of color peak signal-to-noise ratio (CPSNR) and feature similarity index measure (FSIM), as well as higher visual quality.},
+  issn =         {1070-9908}
+}
+
+@article{gunturk_ip_2002,
+  author =       {Bahadir K. Gunturk and Yucel Altunbasak and Russell M. Mersereau},
+  title =        {Color plane interpolation using alternating projections},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2002},
+  volume =       {11},
+  number =       {9},
+  pages =        {997-1013},
+  month =        sep,
+  url =          {http://dx.doi.org/10.1109/TIP.2002.801121},
+  keywords =     {Bayer pattern, color filter array, demosaicking, projection on convex sets},
+  file =         {2002/gunturk_ip_2002.pdf},
+  confidential = {n},
+  language =     {en},
+  issn =         {1057-7149}
+}
+
+@inproceedings{li_vcip_2008,
+  author =       {Xin Li and Bahadir K. Gunturk and Lei Zhang},
+  title =        {Image demosaicing: a systematic survey},
+  booktitle =    {Proceedings of the SPIE Conference on Visual Communications and Image Processing ({VCIP}'08)},
+  year =         {2008},
+  day =          {27-31},
+  month =        jan,
+  editor =       {William A. Pearlman and John W. Woods and Ligang Lu},
+  address =      {San Jose, California, USA},
+  volume =       {6822},
+  pages =        {68221J1-15},
+  url =          {http://www.csee.wvu.edu/%7Exinl/papers/demosaicing_survey.pdf, http://www4.comp.polyu.edu.hk/$\sim$cslzhang/papers.htm, http://spiedl.aip.org/getabs/servlet/GetabsServlet?prog=normal\&id=PSISDG00682200000168221J000001\&idtype=cvips\&gifs=yes},
+  keywords =     {},
+  file =         {2008/li_vcip_2008.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Image demosaicing is a problem of interpolating full-resolution color images from so-called color-filter-array (CFA) samples. Among various CFA patterns, Bayer pattern has been the most popular choice and demosaicing of Bayer pattern has attracted renewed interest in recent years partially due to the increased availability of source codes/executables in response to the principle of "reproducible research". In this article, we provide a systematic survey of over seventy published works in this field since 1999 (complementary to previous reviews). Our review attempts to address important issues to demosaicing and identify fundamental differences among competing approaches. Our findings suggest most existing works belong to the class of sequential demosaicing - i.e., luminance channel is interpolated first and then chrominance channels are reconstructed based on recovered luminance information. We report our comparative study results with a collection of eleven competing algorithms whose source codes or executables are provided by the authors. Our comparison is performed on two data sets: Kodak PhotoCD (popular choice) and IMAX high-quality images (more challenging). While most existing demosaicing algorithms achieve good performance on the Kodak data set, their performance on the IMAX one (images with varying-hue and high-saturation edges) degrades significantly. Such observation suggests the importance of properly addressing the issue of mismatch between assumed model and observation data in demosaicing, which calls for further investigation on issues such as model validation, test data selection and performance evaluation.}
+}
+
+@article{menon_ic_2011,
+  author =       {Daniele Menon and Giancarlo Calvagno},
+  title =        {Color image demosaicking: An overview},
+  journal =      {Journal of Signal Processing: Image Communication},
+  year =         {2011},
+  volume =       {26},
+  number =       {8-9},
+  pages =        {518-533},
+  url =          {http://dx.doi.org/10.1016/j.image.2011.04.003},
+  keywords =     {Bayer pattern, Color filter array interpolation, Demosaicking, Digital cameras},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Demosaicking is the process of reconstructing a full-resolution color image from the sampled data acquired by a digital camera that apply a color filter array to a single sensor. This paper discusses the need of a color filter array and presents a survey of several techniques proposed to demosaicking. A comparison between the different methods is also provided, discussing their performances.},
+  issn =         {0923-5965}
+}
+
+@article{he_pami_2013,
+  author =       {Kaiming He and Jian Sun and Xiaoou Tang},
+  title =        {Guided Image Filtering},
+  journal =      {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year =         {2013},
+  volume =       {35},
+  number =       {6},
+  pages =        {1397-1409},
+  url =          {http://dx.doi.org/10.1109/TPAMI.2012.213,http://research.microsoft.com/en-us/um/people/kahe/eccv10/},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {In this paper, we propose a novel explicit image filter called guided filter. Derived from a local linear model, the guided filter computes the filtering output by considering the content of a guidance image, which can be the input image itself or another different image. The guided filter can be used as an edge-preserving smoothing operator like the popular bilateral filter [1], but it has better behaviors near edges. The guided filter is also a more generic concept beyond smoothing: It can transfer the structures of the guidance image to the filtering output, enabling new filtering applications like dehazing and guided feathering. Moreover, the guided filter naturally has a fast and nonapproximate linear time algorithm, regardless of the kernel size and the intensity range. Currently, it is one of the fastest edge-preserving filters. Experiments show that the guided filter is both effective and efficient in a great variety of computer vision and computer graphics applications, including edge-aware smoothing, detail enhancement, HDR compression, image matting/feathering, dehazing, joint upsampling, etc.}
+}
+
+@article{ye_ip_2015,
+  author =       {Wei Ye and Kai-Kuang Ma},
+  title =        {Color Image Demosaicing Using Iterative Residual Interpolation},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2015},
+  volume =       {24},
+  number =       {12},
+  pages =        {5879-5891},
+  month =        dec,
+  url =          {http://dx.doi.org/10.1109/TIP.2015.2482899},
+  keywords =     {Channel estimation;Correlation;Estimation;Image color analysis;Image reconstruction;Image restoration;Interpolation;Color filter array;Image demosaicing;color filter array;color-component difference interpolation;guided filter;image demosaicing;iterative },
+  confidential = {n},
+  language =     {en},
+  abstract =     {A recently developed demosaicing methodology, called residual interpolation (RI), has demonstrated superior performance over the conventional color-component difference interpolation. However, it has been observed that the existing RI-based methods fail to fully exploit the potential of RI strategy on the reconstruction of the most important G channel, as only the R and B channels are restored through the RI strategy. Since any reconstruction error introduced in the G channel will be carried over into the demosaicing process of the other two channels, this makes the restoration of the G channel highly instrumental to the quality of the final demosaiced image. In this paper, a novel iterative RI (IRI) process is developed for reconstructing a highly accurate G channel first; in essence, it can be viewed as an iterative refinement process for the estimation of those missing pixel values on the G channel. The key novelty of the proposed IRI process is that all the three channels will mutually guide each other until a stopping criterion is met. Based on the restored G channel, the mosaiced R and B channels will be, respectively, reconstructed by exploiting the existing RI method without iteration. Extensive simulations conducted on two commonly-used test datasets for demosaicing algorithms have demonstrated that our algorithm has achieved the best performance in most cases, compared with the existing state-of-the-art demosaicing methods on both objective and subjective performance evaluations.},
+  issn =         {1057-7149}
+}
+
+@article{moghadam_ip_2013,
+  author =       {Abdolreza Abdolhosseini Moghadam and Mohammad Aghagolzadeh and Mrityunjay Kumar and Hayder Radha},
+  title =        {Compressive framework for demosaicing of natural images},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2013},
+  volume =       {22},
+  number =       {6},
+  pages =        {2356-2371},
+  month =        jun,
+  url =          {http://dx.doi.org/10.1109/TIP.2013.2244215},
+  keywords =     {compressed sensing;mosaic structure;compressed sensing;compressive framework;demosaicing;interchannel correlations;interpixel correlations;natural images;standard test images;Correlation;Dictionaries;Equations;Image coding;Image color analysis;Transforms;},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Typical consumer digital cameras sense only one out of three color components per image pixel. The problem of demosaicing deals with interpolating those missing color components. In this paper, we present compressive demosaicing (CD), a framework for demosaicing natural images based on the theory of compressed sensing (CS). Given sensed samples of an image, CD employs a CS solver to find the sparse representation of that image under a fixed sparsifying dictionary \Ψ. As opposed to state of the art CS-based demosaicing approaches, we consider a clear distinction between the interchannel (color) and interpixel correlations of natural images. Utilizing some well-known facts about the human visual system, those two types of correlations are utilized in a nonseparable format to construct the sparsifying transform \Ψ. Our simulation results verify that CD performs better (both visually and in terms of PSNR) than leading demosaicing approaches when applied to the majority of standard test images.},
+  issn =         {1057-7149}
+}
+
+@article{dubois_spl_2005,
+  author =       {\'Eric Dubois},
+  title =        {Frequency-domain methods for demosaicking of {B}ayer-sampled color images},
+  journal =      {IEEE Signal Processing Letters},
+  year =         {2005},
+  volume =       {12},
+  number =       {12},
+  pages =        {847-850},
+  month =        dec,
+  keywords =     {Bayer sampling, color filter array, demosaicking, digital cameras, interpolation},
+  file =         {2005/dubois_ieeespl_2005.pdf},
+  confidential = {n},
+  comments =     {(Olivier:)
+1. L'approche du dématriçage dans le domaine fréquentiel laisse entrevoir des perspectives très intéressantes. Même si la diaphonie des composantes est inévitable, le démultiplexage du signal CFA doit exploiter les corrélations pour obtenir la meilleure qualité de reconstruction possible.
+2. Le signal CFA peut s'exprimer comme la somme d'une composante de luminance en bande de base, et de 2 composantes de chrominance, l'une modulée à la fréquence spatiale (0.5,0.5) et l'autre aux fréquences (0.5,0) et (0,0.5) (en cycles/pixels).
+3. Il est possible de réduire l'interférence entre la luminance L et la composante modulée C2 en observant qu'il y a DEUX copies bien séparées de cette dernière dans le spectre d'une image, chacune ayant un chevauchement spectral différent avec la composante de luminance. L'auteur propose donc 2 algos de dématriçage A) utilisant des filtres asymétriques complémentaires pour extraire les 2 composantes de C2 modulées à des fréquences différentes, ce qui permet de reconstruire C2. La luminance est alors estimée comme "L=CFA-C1-C2", puis les composantes R,G,B par inversion de la matrice donnant (L,C1,C2)=f(R,G,B); et B) de pondérer adaptativement chacune des composantes de C2, en fonction du voisinage local, de façon à favoriser celle qui présente le chevauchement minimal avec la luminance.},
+  language =     {en},
+  abstract =     {This letter presents a new and simplified derivation of the frequency-domain representation of color images sampled with the Bayer color filter array. Two new demosaicking algorithms based on the frequency-domain representation are described and shown to give excellent results.}
+}
+
+@article{leung_ip_2011,
+  author =       {Brian Leung and Gwanggil Jeon and \'Eric Dubois},
+  title =        {Least-Squares Luma--Chroma Demultiplexing Algorithm for {B}ayer Demosaicking},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2011},
+  volume =       {20},
+  number =       {7},
+  pages =        {1885-1894},
+  month =        jul,
+  url =          {http://dx.doi.org/10.1109/TIP.2011.2107524, http://www.site.uottawa.ca/$\sim$edubois/lslcd,http://eisp.incheon.ac.kr/publications.jsp},
+  keywords =     {image colour analysis;image segmentation;least squares approximations;optical filters;Bayer color filter array;Bayer demosaicking;bandpass filters;least-squares luma-chroma demultiplexing algorithm;missing color components;Algorithm design and analysis;Co},
+  confidential = {n},
+  language =     {en},
+  abstract =     {This paper addresses the problem of interpolating missing color components at the output of a Bayer color filter array (CFA), a process known as demosaicking. A luma-chroma demultiplexing algorithm is presented in detail, using a least-squares design methodology for the required bandpass filters. A systematic study of objective demosaicking performance and system complexity is carried out, and several system configurations are recommended. The method is compared with other benchmark algorithms in terms of CPSNR and S-CIELAB Î”E* objective quality measures and demosaicking speed. It was found to provide excellent performance and the best quality-speed tradeoff among the methods studied.},
+  issn =         {1057-7149}
+}
+
+@article{jeon_ip_2013,
+  author =       {Gwanggil Jeon and \'Eric Dubois},
+  title =        {Demosaicking of Noisy {B}ayer-Sampled Color Images with Least-Squares Luma-Chroma Demultiplexing and Noise Level Estimation},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2013},
+  volume =       {22},
+  number =       {1},
+  pages =        {146-156},
+  month =        jan,
+  url =          {http://dx.doi.org/10.1109/TIP.2012.2214041, http://www.site.uottawa.ca/$\sim$edubois/lslcd_ne/},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {This paper adapts the least-squares luma-chroma demultiplexing (LSLCD) demosaicking method to noisy Bayer color filter array (CFA) images. A model is presented for the noise in white-balanced gamma-corrected CFA images. A method to estimate the noise level in each of the red, green, and blue color channels is then developed. Based on the estimated noise parameters, one of a finite set of configurations adapted to a particular level of noise is selected to demosaic the noisy data. The noise-adaptive demosaicking scheme is called LSLCD with noise estimation (LSLCD-NE). Experimental results demonstrate state-of-the-art performance over a wide range of noise levels, with low computational complexity. Many results with several algorithms, noise levels, and images are presented on our companion web site along with software to allow reproduction of our results.},
+  issn =         {1057-7149}
+}
+
+@inproceedings{alleysson_spie_2008,
+  author =       {David Alleysson and Brice Chaix de Lavar\`ene},
+  title =        {Frequency selection demosaicking: A review and a  look ahead},
+  booktitle =    {Procs. 20th IS\&T/SPIE Electronic Imaging Annual Symposium ({SPIE}'08): Digital Photography IV},
+  year =         {2008},
+  day =          {26–31},
+  month =        jan,
+  address =      {San Jose, California, USA},
+  volume =       {6822},
+  url =          {http://david.alleysson.free.fr/Publications/VCIP08.pdf},
+  keywords =     {},
+  file =         {2008/alleysson_spie_2008.pdf},
+  confidential = {n},
+  language =     {en}
+}
+
+@article{liang_ipi_2013,
+  author =       {Jingwei Liang and Jia Li and Zuowei Shen and Xiaoqun Zhang},
+  title =        {Wavelet frame based color image demosaicing},
+  journal =      { Inverse Problems and Imaging},
+  year =         {2013},
+  volume =       {7},
+  number =       {3},
+  pages =        {777-794},
+  month =        aug,
+  url =          {http://dx.doi.org/10.3934/ipi.2013.7.777,http://www.math.nus.edu.sg/$\sim$matzuows/LLSZ.pdf},
+  keywords =     {},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Color image demosaicing consists in recovering full resolution color
+information from color-lter-array (CFA) samples with 66.7% amount of miss-
+ing data. Most of the existing color demosaicing methods [14, 25, 16, 2, 26]
+are based on interpolation from inter-channel correlation and local geometry,
+which are not robust to highly saturated color images with small geometric
+features. In this paper, we introduce wavelet frame based methods by using
+a sparse wavelet [8, 22, 9, 23] approximation of individual color channels and
+color differences that recovers both geometric features and color information.
+The proposed models can be efficiently solved by Bregmanized operator split-
+ting algorithm [27]. Numerical simulations of two datasets: McM and Kodak
+PhotoCD, show that our method outperforms other existing methods in terms
+of PSNR and visual quality.}
+}
+
+@article{korneliussen_ip_2014,
+  author =       {Jan Tore Korneliussen and Keigo Hirakawa},
+  title =        {Camera Processing With Chromatic Aberration},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2014},
+  volume =       {23},
+  number =       {10},
+  pages =        {4539-4552},
+  month =        oct,
+  url =          {http://dx.doi.org/10.1109/TIP.2014.2350911,http://campus.udayton.edu/$\sim$ISSL/index.php/research/denoising-demosaicking/},
+  keywords =     {aberrations;cameras;image segmentation;photographic lenses;refractive index;achromatic lens designs;apochromatic lens designs;camera optics;camera processing;chromatic aberration;chromatic aberration-tolerant demosaicking algorithm;color fringes;defocus b},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Since the refractive index of materials commonly used for lens depends on the wavelengths of light, practical camera optics fail to converge light to a single point on an image plane. Known as chromatic aberration, this phenomenon distorts image details by introducing magnification error, defocus blur, and color fringes. Though achromatic and apochromatic lens designs reduce chromatic aberration to a degree, they are complex and expensive and they do not offer a perfect correction. In this paper, we propose a new post-capture processing scheme designed to overcome these problems computationally. Specifically, the proposed solution is comprised of chromatic aberration-tolerant demosaicking algorithm and post-demosaicking chromatic aberration correction. Experiments with simulated and real sensor data verify that the chromatic aberration is effectively corrected.},
+  issn =         {1057-7149}
+}
+
+
+@article{canny_ieeetpami_1986,
+  author =       {J. Canny},
+  title =        { A computational approach to edge detection.},
+  journal =      {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year =         {1986},
+  volume =       {PAMI-8},
+  number =       {6},
+  pages =        {679 - 698},
+  month =        nov,
+  url =          {http://ieeexplore.ieee.org/document/4767851/?arnumber=4767851\&tag=1},
+  keywords =     {Image edge detection, Detectors, Machine vision, Shape measurement, Performance analysis, Uncertainty, Gaussian approximation, Signal to noise ratio, Signal synthesis, Feature extraction},
+  confidential = {n},
+  language =     {en},
+  abstract =     {This paper describes a computational approach to edge detection. The success of the approach depends on the definition of a comprehensive set of goals for the computation of edge points. These goals must be precise enough to delimit the desired behavior of the detector while making minimal assumptions about the form of the solution. We define detection and localization criteria for a class of edges, and present mathematical forms for these criteria as functionals on the operator impulse response. A third criterion is then added to ensure that the detector has only one response to a single edge. We use the criteria in numerical optimization to derive detectors for several common image features, including step edges. On specializing the analysis to step edges, we find that there is a natural uncertainty principle between detection and localization performance, which are the two main goals. With this principle we derive a single operator shape which is optimal at any scale. The optimal detector has a simple approximate implementation in which edges are marked at maxima in gradient magnitude of a Gaussian-smoothed image. We extend this simple detector using operators of several widths to cope with different signal-to-noise ratios in the image. We present a general method, called feature synthesis, for the fine-to-coarse integration of information from operators at different scales. Finally we show that step edge detector performance improves considerably as the operator point spread function is extended along the edge.}
+}
+
+@article{deriche_ijcv_1987,
+  author =       {R. Deriche},
+  title =        {Using Canny's Criteria to Derive a Recursively Implemented  Optimal Edge  Detector},
+  journal =      {International Journal of Computer Vision},
+  year =         {1987},
+  pages =        {167-187},
+  keywords =     {},
+  file =         {1987/deriche_ijcv_1987.pdf},
+  confidential = {n},
+  language =     {en},
+  abstract =     {A highly efficient recursive algorithm for edge detection is presented. Using Canny's design [1], we show that a solution to his precise formulation of detection and localization for an infinite extent filter leads to an optimal operator in one dimension, which can be efficiently implemented by two recursive filters moving in opposite directions. In addition to the noise truncature immunity which results, the recursive nature of the filtering operations leads, with sequential machines, to a substantial saving in computational effort (five multiplications and five additions for one pixel, independent of the size of the neighborhood). The extension to the two-dimensional case is considered and the resulting filtering structures are implemented as two-dimensional recursive filters. Hence, the filter size can be varied by simply changing the value of one parameter without affecting the time execution of the algorithm. Performance measures of this new edge detector are given and compared to Canny's filters. Various experimental results are shown.}
+}
+
+
+@article{zhang_ip_2007,
+  author =       {Lei Zhang and Xiaolin Wu and David Zhang},
+  title =        {Color Reproduction From Noisy {CFA} Data of Single Sensor Digital Cameras},
+  journal =      {IEEE Transactions on Image Processing},
+  year =         {2007},
+  volume =       {16},
+  number =       {9},
+  pages =        {2184-2197},
+  month =        sep,
+  url =          {http://dx.doi.org/10.1109/TIP.2007.901807,http://www4.comp.polyu.edu.hk/$\sim$cslzhang/dmdn.htm},
+  keywords =     {cameras;image colour analysis;image denoising;image reconstruction;image segmentation;mean square error methods;wavelet transforms;color filter array;color interpolation;color reproduction;image reconstruction;joint demosaicking-denoising approach;linear },
+  confidential = {n},
+  language =     {en},
+  abstract =     {Single sensor digital color still/video cameras capture images using a color filter array (CFA) and require color interpolation (demosaicking) to reconstruct full color images. The color reproduction has to combat sensor noises which are channel dependent. If untreated in demosaicking, sensor noises can cause color artifacts that are hard to remove later by a separate denoising process, because the demosaicking process complicates the noise characteristics by blending noises of different color channels. This paper presents a joint demosaicking-denoising approach to overcome this difficulty. The color image is restored from noisy mosaic data in two steps. First, the difference signals of color channels are estimated by linear minimum mean square-error estimation. This process exploits both spectral and spatial correlations to simultaneously suppress sensor noise and interpolation error. With the estimated difference signals, the full resolution green channel is recovered. The second step involves in a wavelet-based denoising process to remove the CFA channel-dependent noises from the reconstructed green channel. The red and blue channels are subsequently recovered. Simulated and real CFA mosaic data are used to evaluate the performance of the proposed joint demosaicking-denoising scheme and compare it with many recently developed sophisticated demosaicking and denoising schemes.},
+  issn =         {1057-7149}
+}
+
+
+@article{abdou_pieee_1979,
+  author =       {I. Abdou and W. Pratt},
+  title =        {Quantitative design and evaluation of enhancement/thresholding edge detectors},
+  journal =      {Proceedings of the IEEE},
+  year =         {1979},
+  volume =       {67},
+  number =       {5},
+  month =        may,
+  url =          {http://dx.doi.org/10.1109/PROC.1979.11325},
+  keywords =     {Image edge detection, Detectors, Image processing, Probability, Image classification, Image analysis, Monitoring, Laboratories, Teleprinting},
+  confidential = {n},
+  language =     {en},
+  abstract =     {Quantitative design and performance evaluation techniques are developed for the enhancement/thresholding class of image edge detectors. The design techniques are based on statistical detection theory and deterministic pattern-recognition classification procedures. The performance evaluation methods developed include: a)deterministic measurement of the edge gradient amplitude; b)comparison of the probabilities of correct and false edge detection; and c) figure of merit computation. The design techniques developed are used to optimally design a variety of small and large mask edge detectors. Theoretical and experimental comparisons of edge detectors are presented.}
+}
+
+@article{deriche_ieeetpami_1990,
+  author =       {R. Deriche},
+  title =        {Fast Algorithms for Low-Level Vision},
+  journal =      {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year =         {1990},
+  volume =       {12},
+  number =       {1},
+  month =        jan,
+  keywords =     {Computer vision, edge detection, multiscale representation, recursive filtering},
+  confidential = {n},
+  language =     {en},
+  abstract =     {We propose in this paper a recursive filtering structure
+that drastically reduces the computational effort required for smoothing,
+performing the first and second directional derivatives or carrying
+out the Laplacian of an image. These operations are done with a fixed
+number of multiplications and additions per output point independently
+of the size of the neighborhood considered. The key to our approach
+is first the use of an exponentially based filter family and second
+the use of the recursive filtering. Applications to edge detection problems
+and multiresolution techniques are considered and a new edge
+detector allowing the extraction of zero-crossings of an image with only
+14 operations per output element at any resolution is proposed. Various
+experimental results are shown}
+}

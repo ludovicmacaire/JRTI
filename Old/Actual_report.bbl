@@ -1,0 +1,276 @@
+\begin{thebibliography}{10}
+
+\bibitem{abdou_pieee_1979}
+I.~Abdou and W.~Pratt.
+\newblock Quantitative design and evaluation of enhancement/thresholding edge
+  detectors.
+\newblock {\em Proceedings of the IEEE}, 67(5), May 1979.
+
+\bibitem{akiyama_icip_2015}
+Hiroki Akiyama, Masayuki Tanaka, and Masatoshi Okutomi.
+\newblock Pseudo four-channel image denoising for noisy {CFA} raw data.
+\newblock In {\em Proceedings of the IEEE International Conference on Image
+  Processing (ICIP'15)}, pages 4778--4782, Qu\'ebec City, Canada, September
+  2015.
+
+\bibitem{alleysson_spie_2008}
+David Alleysson and Brice~Chaix de~Lavar\`ene.
+\newblock Frequency selection demosaicking: A review and a look ahead.
+\newblock In {\em Procs. 20th IS\&T/SPIE Electronic Imaging Annual Symposium
+  ({SPIE}'08): Digital Photography IV}, volume 6822, San Jose, California, USA,
+  January 2008.
+
+\bibitem{canny_ieeetpami_1986}
+J.~Canny.
+\newblock A computational approach to edge detection.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  PAMI-8(6):679 -- 698, November 1986.
+
+\bibitem{chang_jei_2006}
+Lanlan Chang and Yap-Peng Tan.
+\newblock Hybrid color filter array demosaicking for effective artifact
+  suppression.
+\newblock {\em Journal of Electronic Imaging}, 15(1):013003,1--17, January
+  2006.
+
+\bibitem{chen_apccas_2006}
+Chia-Hsiung Chen, Sao-Jie Chen, and Pei-Yung Hsiao.
+\newblock Edge detection on the {B}ayer pattern.
+\newblock In {\em Procs. IEEE Asia Pacific Conference on Circuits and Systems
+  ({APCCAS}'06)}, pages 1132--1135, Singapore, December 2006.
+
+\bibitem{chen_csvt_2015}
+Xiangdong Chen, Liwen He, Gwanggil Jeon, and Jechang Jeong.
+\newblock Multidirectional weighted interpolation and refinement method for
+  {B}ayer pattern {CFA} demosaicking.
+\newblock {\em IEEE Transactions on Circuits and Systems for Video Technology},
+  25(8):1271--1282, August 2015.
+
+\bibitem{condat_icip_2012}
+Laurent Condat and Saleh Mosaddegh.
+\newblock Joint demosaicking and denoising by total variation minimization.
+\newblock In {\em Proceedings of the IEEE International Conference on Image
+  Processing ({ICIP}'12)}, pages 2781--2784, Orlando, Florida, USA, September
+  2012.
+
+\bibitem{danielyan_lnla_2009}
+Aram Danielyan, Markku Vehvilainen, Alessandro Foi, Vladimir Katkovnik, and
+  Karen Egiazarian.
+\newblock Cross-color {BM3D} filtering of noisy raw data.
+\newblock In {\em Proceedings of the 2009 International Workshop on Local and
+  Non-Local Approximation in Image Processing (LNLA 2009)}, pages 125--129,
+  Tuusula, Finland, August 2009.
+
+\bibitem{deriche_ijcv_1987}
+R.~Deriche.
+\newblock Using canny's criteria to derive a recursively implemented optimal
+  edge detector.
+\newblock {\em International Journal of Computer Vision}, pages 167--187, 1987.
+
+\bibitem{deriche_ieeetpami_1990}
+R.~Deriche.
+\newblock Fast algorithms for low-level vision.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  12(1), January 1990.
+
+\bibitem{dubois_spl_2005}
+\'Eric Dubois.
+\newblock Frequency-domain methods for demosaicking of {B}ayer-sampled color
+  images.
+\newblock {\em IEEE Signal Processing Letters}, 12(12):847--850, December 2005.
+
+\bibitem{duran_ip_2014}
+Joan Duran and Antoni Buades.
+\newblock Self-similarity and spectral correlation adaptive algorithm for color
+  demosaicking.
+\newblock {\em IEEE Transactions on Image Processing}, 23(9):4031--4040,
+  September 2014.
+
+\bibitem{goossens_icip_2013}
+Bart Goossens, Jan Aelterman, Hi\^ep Luong, Aleksandra Pi\v{z}urica, and
+  Wilfried Philips.
+\newblock Complex wavelet joint denoising and demosaicing using {G}aussian
+  scale mixtures.
+\newblock In {\em Proceedings of the IEEE International Conference on Image
+  Processing (ICIP'13)}, pages 445--448, Melbourne, Australia, September 2013.
+
+\bibitem{gunturk_ip_2002}
+Bahadir~K. Gunturk, Yucel Altunbasak, and Russell~M. Mersereau.
+\newblock Color plane interpolation using alternating projections.
+\newblock {\em IEEE Transactions on Image Processing}, 11(9):997--1013,
+  September 2002.
+
+\bibitem{hamilton_patent_1997}
+John~F. Hamilton and James~E. Adams.
+\newblock Adaptive color plan interpolation in single sensor color electronic
+  camera.
+\newblock US patent 5,629,734, to Eastman Kodak Co., Patent and Trademark
+  Office, Washington D.C., May 1997.
+
+\bibitem{he_pami_2013}
+Kaiming He, Jian Sun, and Xiaoou Tang.
+\newblock Guided image filtering.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  35(6):1397--1409, 2013.
+
+\bibitem{jeon_ip_2013}
+Gwanggil Jeon and \'Eric Dubois.
+\newblock Demosaicking of noisy {B}ayer-sampled color images with least-squares
+  luma-chroma demultiplexing and noise level estimation.
+\newblock {\em IEEE Transactions on Image Processing}, 22(1):146--156, January
+  2013.
+
+\bibitem{khashabi_ip_2014}
+Daniel Khashabi, Sebastian Nowozin, and Jeremy Jancsary Andrew~W. Fitzgibbon.
+\newblock Joint demosaicing and denoising via learned nonparametric random
+  fields.
+\newblock {\em IEEE Transactions on Image Processing}, 23(12):4968--4981,
+  December 2014.
+
+\bibitem{kiku_icip_2013}
+Daisuke Kiku, Yusuke Monno, Sunao Kikuchi, Masayuki Tanaka, and Masatoshi
+  Okutomi.
+\newblock Residual interpolation for color image demosaicking.
+\newblock In {\em Proceedings of the IEEE International Conference on Image
+  Processing (ICIP'13)}, pages 2304--2308, Melbourne, Australia, September
+  2013.
+
+\bibitem{kiku_spie_2014}
+Daisuke Kiku, Yusuke Monno, Masayuki Tanaka, and Masatoshi Okutomi.
+\newblock Minimized-{L}aplacian residual interpolation for color image
+  demosaicking.
+\newblock In Nitin Sampat, Radka Tezaur, Sebastiano Battiato, and Boyd~A.
+  Fowler, editors, {\em Proceedings of the SPIE Electronic Imaging Annual
+  Symposium (SPIE'14): Digital Photography X}, volume 9023, San Francisco,
+  California, USA, February 2014.
+
+\bibitem{kiku_ip_2016}
+Daisuke Kiku, Yusuke Monno, Masayuki Tanaka, and Masatoshi Okutomi.
+\newblock Beyond color difference: Residual interpolation for color image
+  demosaicking.
+\newblock {\em IEEE Transactions on Image Processing}, 25(3):1288--1300, March
+  2016.
+
+\bibitem{korneliussen_ip_2014}
+Jan~Tore Korneliussen and Keigo Hirakawa.
+\newblock Camera processing with chromatic aberration.
+\newblock {\em IEEE Transactions on Image Processing}, 23(10):4539--4552,
+  October 2014.
+
+\bibitem{leung_ip_2011}
+Brian Leung, Gwanggil Jeon, and \'Eric Dubois.
+\newblock Least-squares luma--chroma demultiplexing algorithm for {B}ayer
+  demosaicking.
+\newblock {\em IEEE Transactions on Image Processing}, 20(7):1885--1894, July
+  2011.
+
+\bibitem{li_vcip_2008}
+Xin Li, Bahadir~K. Gunturk, and Lei Zhang.
+\newblock Image demosaicing: a systematic survey.
+\newblock In William~A. Pearlman, John~W. Woods, and Ligang Lu, editors, {\em
+  Proceedings of the SPIE Conference on Visual Communications and Image
+  Processing ({VCIP}'08)}, volume 6822, pages 68221J1--15, San Jose,
+  California, USA, January 2008.
+
+\bibitem{liang_ipi_2013}
+Jingwei Liang, Jia Li, Zuowei Shen, and Xiaoqun Zhang.
+\newblock Wavelet frame based color image demosaicing.
+\newblock {\em Inverse Problems and Imaging}, 7(3):777--794, August 2013.
+
+\bibitem{losson_ietip_2012}
+Olivier Losson and Ludovic Macaire.
+\newblock Colour texture classification from colour filter array images using
+  various colour spaces.
+\newblock {\em IET Image Processing}, 6(8):1192--1204, November 2012.
+
+\bibitem{losson_aiep_2010}
+Olivier Losson, Ludovic Macaire, and Yanqin Yang.
+\newblock Comparison of color demosaicing methods.
+\newblock {\em Advances in Imaging and Electron Physics}, 162:173--265, July
+  2010.
+
+\bibitem{losson_cviu_2013}
+Olivier Losson, Alice Porebski, Nicolas Vandenbroucke, and Ludovic Macaire.
+\newblock Color texture analysis using {CFA} chromatic co-occurrence matrices.
+\newblock {\em Computer Vision and Image Understanding}, 117(7):747--763, July
+  2013.
+
+\bibitem{mairal_iccv_2009}
+Julien Mairal, Francis Bach, Jean Ponce, Guillermo Sapiro, and Andrew
+  Zisserman.
+\newblock Non-local sparse models for image restoration.
+\newblock In {\em Proceedings of the 12th International Conference on Computer
+  Vision ({ICCV}'09)}, pages 2272--2279, Kyoto, Japan, September 2009.
+
+\bibitem{menon_ic_2011}
+Daniele Menon and Giancarlo Calvagno.
+\newblock Color image demosaicking: An overview.
+\newblock {\em Journal of Signal Processing: Image Communication},
+  26(8-9):518--533, 2011.
+
+\bibitem{moghadam_ip_2013}
+Abdolreza~Abdolhosseini Moghadam, Mohammad Aghagolzadeh, Mrityunjay Kumar, and
+  Hayder Radha.
+\newblock Compressive framework for demosaicing of natural images.
+\newblock {\em IEEE Transactions on Image Processing}, 22(6):2356--2371, June
+  2013.
+
+\bibitem{pekkucuksen_ip_2013}
+Ibrahim Pekkucuksen and Yucel Altunbasak.
+\newblock Multiscale gradients-based color filter array interpolation.
+\newblock {\em IEEE Transactions on Image Processing}, 22(1), January 2013.
+
+\bibitem{rossi_icip_2014}
+Mattia Rossi and Giancarlo Calvagno.
+\newblock Luminance driven sparse representation based demosaicking.
+\newblock In {\em Proceedings of the IEEE International Conference on Image
+  Processing (ICIP 2014)}, pages 1788--1792, Paris, France, October 2014.
+
+\bibitem{sakamoto_ieeetce_1998}
+Tadashi Sakamoto, Chikako Nakanishi, and Tomohiro Hase.
+\newblock Software pixel interpolation for digital still cameras suitable for a
+  {32}-bit {MCU}.
+\newblock {\em IEEE Transactions on Consumer Electronics}, 44(4):1342--1352,
+  November 1998.
+
+\bibitem{seybold_ism_2013}
+Tamara Seybold, Christian Keimel, Marion Knopp, and Walter Stechele.
+\newblock Towards an evaluation of denoising algorithms with respect to
+  realistic camera noise.
+\newblock In {\em Proceedings of the IEEE International Symposium on Multimedia
+  (ISM2013)}, pages 203--210, Anaheim, California, USA, December 2013.
+
+\bibitem{wang_spl_2015}
+Lei Wang and Gwanggil Jeon.
+\newblock Bayer pattern {CFA} demosaicking based on multi-directional weighted
+  interpolation and guided filter.
+\newblock {\em IEEE Signal Processing Letters}, 22(11):2083--2087, November
+  2015.
+
+\bibitem{ye_ip_2015}
+Wei Ye and Kai-Kuang Ma.
+\newblock Color image demosaicing using iterative residual interpolation.
+\newblock {\em IEEE Transactions on Image Processing}, 24(12):5879--5891,
+  December 2015.
+
+\bibitem{zenzo_cvgip_1986}
+Silvano~Di Zenzo.
+\newblock A note on the gradient of a multi-image.
+\newblock {\em Computer Vision, Graphics, and Image Processing},
+  33(1):116--125, January 1986.
+
+\bibitem{zhang_ip_2009}
+Lei Zhang, Rastislav Lukac, Xiaolin Wu, and David Zhang.
+\newblock {PCA}-based spatially adaptive denoising of {CFA} images for
+  single-sensor digital cameras.
+\newblock {\em IEEE Transactions on Image Processing}, 18(4):797--812, April
+  2009.
+
+\bibitem{zhang_ip_2007}
+Lei Zhang, Xiaolin Wu, and David Zhang.
+\newblock Color reproduction from noisy {CFA} data of single sensor digital
+  cameras.
+\newblock {\em IEEE Transactions on Image Processing}, 16(9):2184--2197,
+  September 2007.
+
+\end{thebibliography}
